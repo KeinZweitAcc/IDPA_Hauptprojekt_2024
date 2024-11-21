@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace IDPA_Hauptprojekt_2024.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20241114160649_Initial")]
+    [Migration("20241121131442_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -18,21 +18,6 @@ namespace IDPA_Hauptprojekt_2024.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.0");
-
-            modelBuilder.Entity("IDPA_Hauptprojekt_2024.Database.Model.Article", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("ArticleLaw")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Articles");
-                });
 
             modelBuilder.Entity("IDPA_Hauptprojekt_2024.Database.Model.ArticleKeyword", b =>
                 {
@@ -46,16 +31,44 @@ namespace IDPA_Hauptprojekt_2024.Migrations
 
                     b.HasIndex("KeywordId");
 
-                    b.ToTable("Article_Keywords");
+                    b.ToTable("ArticleKeywords");
                 });
 
-            modelBuilder.Entity("IDPA_Hauptprojekt_2024.Database.Model.Keyword", b =>
+            modelBuilder.Entity("IDPA_Hauptprojekt_2024.Database.Model.Articles", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("Keywords")
+                    b.Property<string>("ArticleDescription")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ArticleNr")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<char>("Letter")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("Paragraph")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Subsection")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Articles");
+                });
+
+            modelBuilder.Entity("IDPA_Hauptprojekt_2024.Database.Model.Keywords", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Keyword")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
@@ -66,14 +79,14 @@ namespace IDPA_Hauptprojekt_2024.Migrations
 
             modelBuilder.Entity("IDPA_Hauptprojekt_2024.Database.Model.ArticleKeyword", b =>
                 {
-                    b.HasOne("IDPA_Hauptprojekt_2024.Database.Model.Article", "Article")
-                        .WithMany("Article_Keywords")
+                    b.HasOne("IDPA_Hauptprojekt_2024.Database.Model.Articles", "Article")
+                        .WithMany("ArticleKeywords")
                         .HasForeignKey("ArticleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("IDPA_Hauptprojekt_2024.Database.Model.Keyword", "Keyword")
-                        .WithMany("Article_Keywords")
+                    b.HasOne("IDPA_Hauptprojekt_2024.Database.Model.Keywords", "Keyword")
+                        .WithMany("ArticleKeywords")
                         .HasForeignKey("KeywordId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -83,14 +96,14 @@ namespace IDPA_Hauptprojekt_2024.Migrations
                     b.Navigation("Keyword");
                 });
 
-            modelBuilder.Entity("IDPA_Hauptprojekt_2024.Database.Model.Article", b =>
+            modelBuilder.Entity("IDPA_Hauptprojekt_2024.Database.Model.Articles", b =>
                 {
-                    b.Navigation("Article_Keywords");
+                    b.Navigation("ArticleKeywords");
                 });
 
-            modelBuilder.Entity("IDPA_Hauptprojekt_2024.Database.Model.Keyword", b =>
+            modelBuilder.Entity("IDPA_Hauptprojekt_2024.Database.Model.Keywords", b =>
                 {
-                    b.Navigation("Article_Keywords");
+                    b.Navigation("ArticleKeywords");
                 });
 #pragma warning restore 612, 618
         }

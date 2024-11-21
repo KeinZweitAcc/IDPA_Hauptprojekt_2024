@@ -1,10 +1,5 @@
 ﻿using IDPA_Hauptprojekt_2024.Database.Model;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IDPA_Hauptprojekt_2024.Database
 {
@@ -12,9 +7,9 @@ namespace IDPA_Hauptprojekt_2024.Database
     {
         public DataContext(DbContextOptions<DataContext> options) : base(options) { }
 
-        public DbSet<Article> Articles { get; set; }
-        public DbSet<Keyword> Keywords { get; set; }
-        public DbSet<ArticleKeyword> Article_Keywords { get; set; }
+        public DbSet<Articles> Articles { get; set; }
+        public DbSet<Keywords> Keywords { get; set; }
+        public DbSet<ArticleKeyword> ArticleKeywords { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -23,14 +18,14 @@ namespace IDPA_Hauptprojekt_2024.Database
 
             modelBuilder.Entity<ArticleKeyword>()
                 .HasOne(mab => mab.Article)
-                .WithMany(a => a.Article_Keywords)
+                .WithMany(a => a.ArticleKeywords)
                 .HasForeignKey(a => a.ArticleId)
                 .OnDelete(DeleteBehavior.Cascade); //Deletes the relation as well.
 
 
             modelBuilder.Entity<ArticleKeyword>()
                 .HasOne(mab => mab.Keyword)
-                .WithMany(a => a.Article_Keywords)
+                .WithMany(a => a.ArticleKeywords)
                 .HasForeignKey(mab => mab.KeywordId)
                 .OnDelete(DeleteBehavior.Cascade); //Deletes the relation as well.
         }

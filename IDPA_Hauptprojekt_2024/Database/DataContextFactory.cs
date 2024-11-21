@@ -1,11 +1,6 @@
 ﻿using IDPA_Hauptprojekt_2024.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IDPA_Hauptprojekt_2024_Migration.Database
 {

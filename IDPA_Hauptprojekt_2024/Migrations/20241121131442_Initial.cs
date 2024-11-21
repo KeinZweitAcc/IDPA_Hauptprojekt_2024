@@ -16,7 +16,11 @@ namespace IDPA_Hauptprojekt_2024.Migrations
                 {
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    ArticleLaw = table.Column<string>(type: "TEXT", nullable: false)
+                    ArticleNr = table.Column<string>(type: "TEXT", nullable: false),
+                    Paragraph = table.Column<int>(type: "INTEGER", nullable: false),
+                    Letter = table.Column<char>(type: "TEXT", nullable: false),
+                    Subsection = table.Column<int>(type: "INTEGER", nullable: false),
+                    ArticleDescription = table.Column<string>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -29,7 +33,7 @@ namespace IDPA_Hauptprojekt_2024.Migrations
                 {
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    Keywords = table.Column<string>(type: "TEXT", nullable: false)
+                    Keyword = table.Column<string>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -37,7 +41,7 @@ namespace IDPA_Hauptprojekt_2024.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Article_Keywords",
+                name: "ArticleKeywords",
                 columns: table => new
                 {
                     ArticleId = table.Column<int>(type: "INTEGER", nullable: false),
@@ -45,15 +49,15 @@ namespace IDPA_Hauptprojekt_2024.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Article_Keywords", x => new { x.ArticleId, x.KeywordId });
+                    table.PrimaryKey("PK_ArticleKeywords", x => new { x.ArticleId, x.KeywordId });
                     table.ForeignKey(
-                        name: "FK_Article_Keywords_Articles_ArticleId",
+                        name: "FK_ArticleKeywords_Articles_ArticleId",
                         column: x => x.ArticleId,
                         principalTable: "Articles",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Article_Keywords_Keywords_KeywordId",
+                        name: "FK_ArticleKeywords_Keywords_KeywordId",
                         column: x => x.KeywordId,
                         principalTable: "Keywords",
                         principalColumn: "Id",
@@ -61,8 +65,8 @@ namespace IDPA_Hauptprojekt_2024.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Article_Keywords_KeywordId",
-                table: "Article_Keywords",
+                name: "IX_ArticleKeywords_KeywordId",
+                table: "ArticleKeywords",
                 column: "KeywordId");
         }
 
@@ -70,7 +74,7 @@ namespace IDPA_Hauptprojekt_2024.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Article_Keywords");
+                name: "ArticleKeywords");
 
             migrationBuilder.DropTable(
                 name: "Articles");
