@@ -19,6 +19,12 @@ namespace IDPA_Hauptprojekt_2024
         public MainWindow()
         {
             InitializeComponent();
+
+        }
+
+        private void SendButton_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
