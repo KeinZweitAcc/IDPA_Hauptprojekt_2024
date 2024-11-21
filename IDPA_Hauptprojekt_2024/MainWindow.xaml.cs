@@ -22,7 +22,7 @@ namespace IDPA_Hauptprojekt_2024
 
         }
 
-        private void SendButton_Click(object sender, RoutedEventArgs e)
+        private void ButtonSubmitScenario_Click(object sender, RoutedEventArgs e)
         {
 
         }
