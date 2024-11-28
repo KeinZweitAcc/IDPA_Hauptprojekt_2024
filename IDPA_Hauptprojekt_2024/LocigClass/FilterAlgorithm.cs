@@ -29,7 +29,7 @@ namespace IDPA_Hauptprojekt_2024.LocigClass
             // Wählt die Sektion Keywords aus der Datenbank aus und speichert sie in einer Liste.
             List<string> keyWords = _dataConnection.Keywords
                 .Select(x => x.Keywords)
-                .ToList();
+                .ToList(); 
 
             // Filtert die Keywords aus der Liste heraus, die im Text enthalten sind.
             var filteredWords = keyWords
