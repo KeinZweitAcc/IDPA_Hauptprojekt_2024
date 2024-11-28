@@ -10,6 +10,10 @@ namespace IDPA_Hauptprojekt_2024.Database
 {
     public class DataContext:DbContext
     {
+        public DataContext()
+        {
+        }
+
         public DataContext(DbContextOptions<DataContext> options) : base(options) { }
 
         public DbSet<Article> Articles { get; set; }

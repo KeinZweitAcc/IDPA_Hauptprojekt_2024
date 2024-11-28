@@ -22,8 +22,6 @@ namespace IDPA_Hauptprojekt_2024
         {
             services.AddDbContext<DataContext>(options =>
                 options.UseSqlite("Data Source=IDPA_Hauptprojekt_2024.db"));
-            services.AddSingleton<DatabaseHandleClass>();
-            services.AddSingleton<FilterAlgorithm>();
             services.AddSingleton<MainWindow>();
         }
 
@@ -35,10 +33,11 @@ namespace IDPA_Hauptprojekt_2024
                 context.Database.Migrate(); // This ensures that migrations are applied on startup
             }
 
-            var mainWindow = _serviceProvider.GetRequiredService<MainWindow>();
-            var filterAlgorithm = _serviceProvider.GetRequiredService<FilterAlgorithm>();
-            mainWindow.SetFilterAlgorithm(filterAlgorithm);
-            mainWindow.Show();
+            var mainWindow = Application.Current.Windows.OfType<MainWindow>().FirstOrDefault();
+            if (mainWindow == null)
+            {
+                mainWindow = _serviceProvider.GetRequiredService<MainWindow>();
+            }
 
             base.OnStartup(e);
         }
