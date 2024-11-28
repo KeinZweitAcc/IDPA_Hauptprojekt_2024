@@ -2,9 +2,10 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using IDPA_Hauptprojekt_2024.Database;
-using IDPA_Hauptprojekt_2024;
+using IDPA_Hauptprojekt_2024.Database.Logic;
+using IDPA_Hauptprojekt_2024.LocigClass;
 
-namespace IDPA_Hauptprojekt_2024_Migration
+namespace IDPA_Hauptprojekt_2024
 {
     public partial class App : Application
     {
@@ -21,7 +22,9 @@ namespace IDPA_Hauptprojekt_2024_Migration
         {
             services.AddDbContext<DataContext>(options =>
                 options.UseSqlite("Data Source=IDPA_Hauptprojekt_2024.db"));
-            services.AddSingleton<MainWindow>(); // Register MainWindow or other services if needed
+            services.AddSingleton<DatabaseHandleClass>();
+            services.AddSingleton<FilterAlgorithm>();
+            services.AddSingleton<MainWindow>();
         }
 
         protected override void OnStartup(StartupEventArgs e)
@@ -33,7 +36,10 @@ namespace IDPA_Hauptprojekt_2024_Migration
             }
 
             var mainWindow = _serviceProvider.GetRequiredService<MainWindow>();
+            var filterAlgorithm = _serviceProvider.GetRequiredService<FilterAlgorithm>();
+            mainWindow.SetFilterAlgorithm(filterAlgorithm);
             mainWindow.Show();
+
             base.OnStartup(e);
         }
     }
