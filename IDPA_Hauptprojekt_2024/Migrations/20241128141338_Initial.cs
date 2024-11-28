@@ -17,9 +17,9 @@ namespace IDPA_Hauptprojekt_2024.Migrations
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
                     ArticleNr = table.Column<string>(type: "TEXT", nullable: false),
-                    Paragraph = table.Column<int>(type: "INTEGER", nullable: false),
-                    Letter = table.Column<char>(type: "TEXT", nullable: false),
-                    Subsection = table.Column<int>(type: "INTEGER", nullable: false),
+                    Paragraph = table.Column<int>(type: "INTEGER", nullable: true),
+                    Letter = table.Column<char>(type: "TEXT", nullable: true),
+                    Subsection = table.Column<int>(type: "INTEGER", nullable: true),
                     ArticleDescription = table.Column<string>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>

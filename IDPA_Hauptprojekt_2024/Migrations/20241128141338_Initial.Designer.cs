@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace IDPA_Hauptprojekt_2024.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20241121131442_Initial")]
+    [Migration("20241128141338_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -48,13 +48,13 @@ namespace IDPA_Hauptprojekt_2024.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<char>("Letter")
+                    b.Property<char?>("Letter")
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("Paragraph")
+                    b.Property<int?>("Paragraph")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("Subsection")
+                    b.Property<int?>("Subsection")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("Id");

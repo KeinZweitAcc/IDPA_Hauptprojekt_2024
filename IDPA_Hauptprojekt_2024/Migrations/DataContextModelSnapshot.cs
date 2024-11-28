@@ -45,13 +45,13 @@ namespace IDPA_Hauptprojekt_2024.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<char>("Letter")
+                    b.Property<char?>("Letter")
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("Paragraph")
+                    b.Property<int?>("Paragraph")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("Subsection")
+                    b.Property<int?>("Subsection")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("Id");

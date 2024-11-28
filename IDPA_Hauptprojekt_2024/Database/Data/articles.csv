@@ -1,0 +1,591 @@
+ID;;OR Artikel;;Absatz;;Buchstabe;;Ziffer;;Beschreibung
+1;;319;;1;;;;;;"Durch den Einzelarbeitsvertrag verpflichtet sich der Arbeitnehmer auf bestimmte oder unbestimmte Zeit zur Leistung von Arbeit im Dienst des Arbeitgebers und dieser zur Entrichtung eines Lohnes, der nach Zeitabschnitten (Zeitlohn) oder nach der geleisteten Arbeit (Akkordlohn) bemessen wird."
+2;;319;;2;;;;;;"Als Einzelarbeitsvertrag gilt auch der Vertrag, durch den sich ein Arbeitnehmer zur regelmässigen Leistung von stunden-, halbtage- oder tageweiser Arbeit (Teilzeitarbeit) im Dienst des Arbeitgebers verpflichtet."
+3;;320;;1;;;;;;"Wird es vom Gesetz nicht anders bestimmt, so bedarf der Einzelarbeitsvertrag zu seiner Gültigkeit keiner besonderen Form."
+4;;320;;2;;;;;;"Er gilt auch dann als abgeschlossen, wenn der Arbeitgeber Arbeit in seinem Dienst auf Zeit entgegennimmt, deren Leistung nach den Umständen nur gegen Lohn zu erwarten ist."
+5;;320;;3;;;;;;"Leistet der Arbeitnehmer in gutem Glauben Arbeit im Dienste des Arbeitgebers auf Grund eines Arbeitsvertrages, der sich nachträglich als ungültig erweist, so haben beide Parteien die Pflichten aus dem Arbeitsverhältnis in gleicher Weise wie aus gültigem Vertrag zu erfüllen, bis dieses wegen Ungültigkeit des Vertrages vom einen oder andern aufgehoben wird."
+6;;321;;;;;;;;"Der Arbeitnehmer hat die vertraglich übernommene Arbeit in eigener Person zu leisten, sofern nichts anderes verabredet ist oder sich aus den Umständen ergibt."
+7;;321a;;1;;;;;;Der Arbeitnehmer hat die ihm übertragene Arbeit sorgfältig auszuführen und die berechtigten Interessen des Arbeitgebers in guten Treuen zu wahren.
+8;;321a;;2;;;;;;"Er hat Maschinen, Arbeitsgeräte, technische Einrichtungen und Anlagen sowie Fahrzeuge des Arbeitgebers fachgerecht zu bedienen und diese sowie Material, die ihm zur Ausführung der Arbeit zur Verfügung gestellt werden, sorgfältig zu behandeln."
+9;;321a;;3;;;;;;"Während der Dauer des Arbeitsverhältnisses darf der Arbeitnehmer keine Arbeit gegen Entgelt für einen Dritten leisten, soweit er dadurch seine Treuepflicht verletzt, insbesondere den Arbeitgeber konkurrenziert."
+10;;321a;;4;;;;;;"Der Arbeitnehmer darf geheim zu haltende Tatsachen, wie namentlich Fabrikations- und Geschäftsgeheimnisse, von denen er im Dienst des Arbeitgebers Kenntnis erlangt, während des Arbeitsverhältnisses nicht verwerten oder anderen mitteilen; auch nach dessen Beendigung bleibt er zur Verschwiegenheit verpflichtet, soweit es zur Wahrung der berechtigten Interessen des Arbeitgebers erforderlich ist."
+11;;321b;;1;;;;;;"Der Arbeitnehmer hat dem Arbeitgeber über alles, was er bei seiner vertraglichen Tätigkeit für diesen von Dritten erhält, wie namentlich Geldbeträge, Rechenschaft abzulegen und ihm alles sofort herauszugeben."
+12;;321b;;2;;;;;;" Er hat dem Arbeitgeber auch alles sofort herauszugeben, was er in Ausübung seiner vertraglichen Tätigkeit hervorbringt."
+13;;321c;;1;;;;;;"Wird gegenüber dem zeitlichen Umfang der Arbeit, der verabredet oder üblich oder durch Normalarbeitsvertrag oder Gesamtarbeitsvertrag bestimmt ist, die Leistung von Überstundenarbeit notwendig, so ist der Arbeitnehmer dazu soweit verpflichtet, als er sie zu leisten vermag und sie ihm nach Treu und Glauben zugemutet werden kann."
+14;;321c;;2;;;;;;Im Einverständnis mit dem Arbeitnehmer kann der Arbeitgeber die Überstundenarbeit innert eines angemessenen Zeitraumes durch Freizeit von mindestens gleicher Dauer ausgleichen.
+15;;321c;;3;;;;;;"Wird die Überstundenarbeit nicht durch Freizeit ausgeglichen und ist nichts anderes schriftlich verabredet oder durch Normalarbeitsvertrag oder Gesamtarbeitsvertrag bestimmt, so hat der Arbeitgeber für die Überstundenarbeit Lohn zu entrichten, der sich nach dem Normallohn samt einem Zuschlag von mindestens einem Viertel bemisst."
+16;;321d;;1;;;;;;Der Arbeitgeber kann über die Ausführung der Arbeit und das Verhalten der Arbeitnehmer im Betrieb oder Haushalt allgemeine Anordnungen erlassen und ihnen besondere Weisungen erteilen.
+17;;321d;;2;;;;;;Der Arbeitnehmer hat die allgemeinen Anordnungen des Arbeitgebers und die ihm erteilten besonderen Weisungen nach Treu und Glauben zu befolgen.
+18;;321e;;1;;;;;;"Der Arbeitnehmer ist für den Schaden verantwortlich, den er absichtlich oder fahrlässig dem Arbeitgeber zufügt."
+19;;321e;;2;;;;;;"Das Mass der Sorgfalt, für die der Arbeitnehmer einzustehen hat, bestimmt sich nach dem einzelnen Arbeitsverhältnis, unter Berücksichtigung des Berufsrisikos, des Bildungsgrades oder der Fachkenntnisse, die zu der Arbeit verlangt werden, sowie der Fähigkeiten und Eigenschaften des Arbeitnehmers, die der Arbeitgeber gekannt hat oder hätte kennen sollen."
+20;;322;;1;;;;;;"Der Arbeitgeber hat dem Arbeitnehmer den Lohn zu entrichten, der verabredet oder üblich oder durch Normalarbeitsvertrag oder Gesamtarbeitsvertrag bestimmt ist."
+21;;322;;2;;;;;;"Lebt der Arbeitnehmer in Hausgemeinschaft mit dem Arbeitgeber, so bildet der Unterhalt im Hause mit Unterkunft und Verpflegung einen Teil des Lohnes, sofern nichts anderes verabredet oder üblich ist."
+22;;322a;;1;;;;;;"Hat der Arbeitnehmer vertraglich Anspruch auf einen Anteil am Gewinn oder am Umsatz oder sonst am Geschäftsergebnis, so ist für die Berechnung des Anteils das Ergebnis des Geschäftsjahres massgebend, wie es nach den gesetzlichen Vorschriften und allgemein anerkannten kaufmännischen Grundsätzen festzustellen ist."
+23;;322a;;2;;;;;;"Der Arbeitgeber hat dem Arbeitnehmer oder an dessen Stelle einem gemeinsam bestimmten oder vom Richter bezeichneten Sachverständigen die nötigen Aufschlüsse zu geben und Einsicht in die Geschäftsbücher zu gewähren, soweit dies zur Nachprüfung erforderlich ist."
+24;;322a;;3;;;;;;"Ist ein Anteil am Gewinn des Unternehmens verabredet, so ist dem Arbeitnehmer überdies auf Verlangen eine Abschrift der Erfolgsrechnung zu übergeben."
+25;;322b;;1;;;;;;"Ist eine Provision des Arbeitnehmers auf bestimmten Geschäften verabredet, so entsteht der Anspruch darauf, wenn das Geschäft mit dem Dritten rechtsgültig abgeschlossen ist."
+26;;322b;;2;;;;;;"Bei Geschäften mit gestaffelter Erfüllung sowie bei Versicherungsverträgen kann schriftlich verabredet werden, dass der Provisionsanspruch auf jeder Rate mit ihrer Fälligkeit oder ihrer Leistung entsteht."
+27;;322b;;3;;;;;;"Der Anspruch auf Provision fällt nachträglich dahin, wenn das Geschäft vom Arbeitgeber ohne sein Verschulden nicht ausgeführt wird oder wenn der Dritte seine Verbindlichkeiten nicht erfüllt; bei nur teilweiser Erfüllung tritt eine verhältnismässige Herabsetzung der Provision ein."
+28;;322c;;1;;;;;;"Ist vertraglich nicht der Arbeitnehmer zur Aufstellung der Provisionsabrechnung verpflichtet, so hat ihm der Arbeitgeber auf jeden Fälligkeitstermin eine schriftliche Abrechnung, unter Angabe der provisionspflichtigen Geschäfte, zu übergeben."
+29;;322c;;2;;;;;;"Der Arbeitgeber hat dem Arbeitnehmer oder an dessen Stelle einem gemeinsam bestimmten oder vom Richter bezeichneten Sachverständigen die nötigen Aufschlüsse zu geben und Einsicht in die für die Abrechnung massgebenden Bücher und Belege zu gewähren, soweit dies zur Nachprüfung erforderlich ist."
+30;;322d;;1;;;;;;"Richtet der Arbeitgeber neben dem Lohn bei bestimmten Anlässen, wie Weihnachten oder Abschluss des Geschäftsjahres, eine Sondervergütung aus, so hat der Arbeitnehmer einen Anspruch darauf, wenn es verabredet ist."
+31;;322d;;2;;;;;;"Endigt das Arbeitsverhältnis, bevor der Anlass zur Ausrichtung der Sondervergütung eingetreten ist, so hat der Arbeitnehmer einen Anspruch auf einen verhältnismässigen Teil davon, wenn es verabredet ist."
+32;;323;;1;;;;;;"Sind nicht kürzere Fristen oder andere Termine verabredet oder üblich und ist durch Normalarbeitsvertrag oder Gesamtarbeitsvertrag nichts anderes bestimmt, so ist dem Arbeitnehmer der Lohn Ende jedes Monats auszurichten."
+33;;323;;2;;;;;;"Ist nicht eine kürzere Frist verabredet oder üblich, so ist die Provision Ende jedes Monats auszurichten; erfordert jedoch die Durchführung von Geschäften mehr als ein halbes Jahr, so kann durch schriftliche Abrede die Fälligkeit der Provision für diese Geschäfte hinausgeschoben werden."
+34;;323;;3;;;;;;"Der Anteil am Geschäftsergebnis ist auszurichten, sobald dieses festgestellt ist, spätestens jedoch sechs Monate nach Ablauf des Geschäftsjahres."
+35;;323;;4;;;;;;"Der Arbeitgeber hat dem Arbeitnehmer nach Massgabe der geleisteten Arbeit den Vorschuss zu gewähren, dessen der Arbeitnehmer infolge einer Notlage bedarf und den der Arbeitgeber billigerweise zu gewähren vermag."
+36;;323a;;1;;;;;;"Sofern es verabredet oder üblich oder durch Normalarbeitsvertrag oder Gesamtarbeitsvertrag bestimmt ist, darf der Arbeitgeber einen Teil des Lohnes zurückbehalten."
+37;;323a;;2;;;;;;Von dem am einzelnen Zahltag fälligen Lohn darf nicht mehr als ein Zehntel des Lohnes und im gesamten nicht mehr als der Lohn für eine Arbeitswoche zurückbehalten werden; jedoch kann ein höherer Lohnrückbehalt durch Normalarbeitsvertrag oder Gesamtarbeitsvertrag vorgesehen werden.
+38;;323a;;3;;;;;;"Ist nichts anderes verabredet oder üblich oder durch Normalarbeitsvertrag oder Gesamtarbeitsvertrag bestimmt, so gilt der zurückbehaltene Lohn als Sicherheit für die Forderungen des Arbeitgebers aus dem Arbeitsverhältnis und nicht als Konventionalstrafe."
+39;;323b;;1;;;;;;"Der Geldlohn ist dem Arbeitnehmer in gesetzlicher Währung innert der Arbeitszeit auszurichten, sofern nichts anderes verabredet oder üblich ist; dem Arbeitnehmer ist eine schriftliche Abrechnung zu übergeben."
+40;;323b;;2;;;;;;"Der Arbeitgeber darf Gegenforderungen mit der Lohnforderung nur soweit verrechnen, als diese pfändbar ist, jedoch dürfen Ersatzforderungen für absichtlich zugefügten Schaden unbeschränkt verrechnet werden."
+41;;323b;;3;;;;;;Abreden über die Verwendung des Lohnes im Interesse des Arbeitgebers sind nichtig.
+42;;324;;1;;;;;;" Kann die Arbeit infolge Verschuldens des Arbeitgebers nicht geleistet werden oder kommt er aus anderen Gründen mit der Annahme der Arbeitsleistung in Verzug, so bleibt er zur Entrichtung des Lohnes verpflichtet, ohne dass der Arbeitnehmer zur Nachleistung verpflichtet ist."
+43;;324;;2;;;;;;"Der Arbeitnehmer muss sich auf den Lohn anrechnen lassen, was er wegen Verhinderung an der Arbeitsleistung erspart oder durch anderweitige Arbeit erworben oder zu erwerben absichtlich unterlassen hat."
+44;;324a;;1;;;;;;"Wird der Arbeitnehmer aus Gründen, die in seiner Person liegen, wie Krankheit, Unfall, Erfüllung gesetzlicher Pflichten oder Ausübung eines öffentlichen Amtes, ohne sein Verschulden an der Arbeitsleistung verhindert, so hat ihm der Arbeitgeber für eine beschränkte Zeit den darauf entfallenden Lohn zu entrichten, samt einer angemessenen Vergütung für ausfallenden Naturallohn, sofern das Arbeitsverhältnis mehr als drei Monate gedauert hat oder für mehr als drei Monate eingegangen ist."
+45;;324a;;2;;;;;;"Sind durch Abrede, Normalarbeitsvertrag oder Gesamtarbeitsvertrag nicht längere Zeitabschnitte bestimmt, so hat der Arbeitgeber im ersten Dienstjahr den Lohn für drei Wochen und nachher für eine angemessene längere Zeit zu entrichten, je nach der Dauer des Arbeitsverhältnisses und den besonderen Umständen."
+46;;324a;;3;;;;;;Bei Schwangerschaft der Arbeitnehmerin hat der Arbeitgeber den Lohn im gleichen Umfang zu entrichten.
+47;;324a;;4;;;;;;"Durch schriftliche Abrede, Normalarbeitsvertrag oder Gesamtarbeitsvertrag kann eine von den vorstehenden Bestimmungen abweichende Regelung getroffen werden, wenn sie für den Arbeitnehmer mindestens gleichwertig ist."
+48;;324b;;1;;;;;;"Ist der Arbeitnehmer auf Grund gesetzlicher Vorschrift gegen die wirtschaftlichen Folgen unverschuldeter Arbeitsverhinderung aus Gründen, die in seiner Person liegen, obligatorisch versichert, so hat der Arbeitgeber den Lohn nicht zu entrichten, wenn die für die beschränkte Zeit geschuldeten Versicherungsleistungen mindestens vier Fünftel des darauf entfallenden Lohnes decken."
+49;;324b;;2;;;;;;"Sind die Versicherungsleistungen geringer, so hat der Arbeitgeber die Differenz zwischen diesen und vier Fünfteln des Lohnes zu entrichten."
+50;;324b;;3;;;;;;"Werden die Versicherungsleistungen erst nach einer Wartezeit gewährt, so hat der Arbeitgeber für diese Zeit mindestens vier Fünftel des Lohnes zu entrichten."
+51;;325;;1;;;;;;"Zur Sicherung familienrechtlicher Unterhalts- und Unterstützungspflichten kann der Arbeitnehmer künftige Lohnforderungen so weit abtreten oder verpfänden, als sie pfändbar sind; auf Ansuchen eines Beteiligten setzt das Betreibungsamt am Wohnsitz des Arbeitnehmers den nach Artikel 93 des Schuldbetreibungs- und Konkursgesetzes vom 11. April 1889 unpfändbaren Betrag fest."
+52;;325;;2;;;;;;Die Abtretung und die Verpfändung künftiger Lohnforderungen zur Sicherung anderer Verbindlichkeiten sind nichtig.
+53;;326;;1;;;;;;"Hat der Arbeitnehmer vertragsgemäss ausschliesslich Akkordlohnarbeit nur für einen Arbeitgeber zu leisten, so hat dieser genügend Arbeit zuzuweisen."
+54;;326;;2;;;;;;"Ist der Arbeitgeber ohne sein Verschulden ausserstande, vertragsgemässe Akkordlohnarbeit zuzuweisen oder verlangen die Verhältnisse des Betriebes vorübergehend die Leistung von Zeitlohnarbeit, so kann dem Arbeitnehmer solche zugewiesen werden."
+55;;326;;3;;;;;;"Ist der Zeitlohn nicht durch Abrede, Normalarbeitsvertrag oder Gesamtarbeitsvertrag bestimmt, so hat der Arbeitgeber dem Arbeitnehmer den vorher durchschnittlich verdienten Akkordlohn zu entrichten."
+56;;326;;4;;;;;;"Kann der Arbeitgeber weder genügend Akkordlohnarbeit noch Zeitlohnarbeit zuweisen, so bleibt er gleichwohl verpflichtet, nach den Vorschriften über den Annahmeverzug den Lohn zu entrichten, den er bei Zuweisung von Zeitlohnarbeit zu entrichten hätte."
+57;;326a;;1;;;;;;"Hat der Arbeitnehmer vertraglich Akkordlohnarbeit zu leisten, so hat ihm der Arbeitgeber den Akkordlohnansatz vor Beginn der einzelnen Arbeit bekanntzugeben."
+58;;326a;;2;;;;;;"Unterlässt der Arbeitgeber diese Bekanntgabe, so hat er den Lohn nach dem für gleichartige oder ähnliche Arbeiten festgesetzten Ansatz zu entrichten."
+59;;327;;1;;;;;;"Ist nichts anderes verabredet oder üblich, so hat der Arbeitgeber den Arbeitnehmer mit den Geräten und dem Material auszurüsten, die dieser zur Arbeit benötigt."
+60;;327;;2;;;;;;"Stellt im Einverständnis mit dem Arbeitgeber der Arbeitnehmer selbst Geräte oder Material für die Ausführung der Arbeit zur Verfügung, so ist er dafür angemessen zu entschädigen, sofern nichts anderes verabredet oder üblich ist."
+61;;327a;;1;;;;;;"Der Arbeitgeber hat dem Arbeitnehmer alle durch die Ausführung der Arbeit notwendig entstehenden Auslagen zu ersetzen, bei Arbeit an auswärtigen Arbeitsorten auch die für den Unterhalt erforderlichen Aufwendungen."
+62;;327a;;2;;;;;;"Durch schriftliche Abrede, Normalarbeitsvertrag oder Gesamtarbeitsvertrag kann als Auslagenersatz eine feste Entschädigung, wie namentlich ein Taggeld oder eine pauschale Wochen- oder Monatsvergütung festgesetzt werden, durch die jedoch alle notwendig entstehenden Auslagen gedeckt werden müssen."
+63;;327a;;3;;;;;;"Abreden, dass der Arbeitnehmer die notwendigen Auslagen ganz oder teilweise selbst zu tragen habe, sind nichtig."
+64;;327b;;1;;;;;;"Benützt der Arbeitnehmer im Einverständnis mit dem Arbeitgeber für seine Arbeit ein von diesem oder ein von ihm selbst gestelltes Motorfahrzeug, so sind ihm die üblichen Aufwendungen für dessen Betrieb und Unterhalt nach Massgabe des Gebrauchs für die Arbeit zu vergüten."
+65;;327b;;2;;;;;;"Stellt der Arbeitnehmer im Einverständnis mit dem Arbeitgeber selbst ein Motorfahrzeug, so sind ihm überdies die öffentlichen Abgaben für das Fahrzeug, die Prämien für die Haftpflichtversicherung und eine angemessene Entschädigung für die Abnützung des Fahrzeugs nach Massgabe des Gebrauchs für die Arbeit zu vergüten."
+66;;327b;;3;;;;;;…
+67;;327c;;1;;;;;;"Auf Grund der Abrechnung des Arbeitnehmers ist der Auslagenersatz jeweils zusammen mit dem Lohn auszurichten, sofern nicht eine kürzere Frist verabredet oder üblich ist."
+68;;327c;;2;;;;;;"Hat der Arbeitnehmer zur Erfüllung der vertraglichen Pflichten regelmässig Auslagen zu machen, so ist ihm ein angemessener Vorschuss in bestimmten Zeitabständen, mindestens aber jeden Monat auszurichten."
+69;;328;;1;;;;;;"Der Arbeitgeber hat im Arbeitsverhältnis die Persönlichkeit des Arbeitnehmers zu achten und zu schützen, auf dessen Gesundheit gebührend Rücksicht zu nehmen und für die Wahrung der Sittlichkeit zu sorgen. Er muss insbesondere dafür sorgen, dass Arbeitnehmerinnen und Arbeitnehmer nicht sexuell belästigt werden und dass den Opfern von sexuellen Belästigungen keine weiteren Nachteile entstehen."
+70;;328;;2;;;;;;"Er hat zum Schutz von Leben, Gesundheit und persönlicher Integrität der Arbeitnehmerinnen und Arbeitnehmer die Massnahmen zu treffen, die nach der Erfahrung notwendig, nach dem Stand der Technik anwendbar und den Verhältnissen des Betriebes oder Haushaltes angemessen sind, soweit es mit Rücksicht auf das einzelne Arbeitsverhältnis und die Natur der Arbeitsleistung ihm billigerweise zugemutet werden kann."
+71;;328a;;1;;;;;;"Lebt der Arbeitnehmer in Hausgemeinschaft mit dem Arbeitgeber, so hat dieser für ausreichende Verpflegung und einwandfreie Unterkunft zu sorgen."
+72;;328a;;2;;;;;;"Wird der Arbeitnehmer ohne sein Verschulden durch Krankheit oder Unfall an der Arbeitsleistung verhindert, so hat der Arbeitgeber Pflege und ärztliche Behandlung für eine beschränkte Zeit zu gewähren, im ersten Dienstjahr für drei Wochen und nachher für eine angemessene längere Zeit, je nach der Dauer des Arbeitsverhältnisses und den besonderen Umständen."
+73;;328a;;3;;;;;;Bei Schwangerschaft und Niederkunft der Arbeitnehmerin hat der Arbeitgeber die gleichen Leistungen zu gewähren.
+74;;328b;;;;;;;;"Der Arbeitgeber darf Daten über den Arbeitnehmer nur bearbeiten, soweit sie dessen Eignung für das Arbeitsverhältnis betreffen oder zur Durchführung des Arbeitsvertrages erforderlich sind. Im Übrigen gelten die Bestimmungen des Datenschutzgesetzes vom 25. September 2020"
+75;;329;;1;;;;;;"Der Arbeitgeber hat dem Arbeitnehmer jede Woche einen freien Tag zu gewähren, in der Regel den Sonntag oder, wo dies nach den Verhältnissen nicht möglich ist, einen vollen Werktag."
+76;;329;;2;;;;;;Unter besonderen Umständen können dem Arbeitnehmer mit dessen Zustimmung ausnahmsweise mehrere freie Tage zusammenhängend oder statt eines freien Tages zwei freie Halbtage eingeräumt werden.
+77;;329;;3;;;;;;Dem Arbeitnehmer sind im Übrigen die üblichen freien Stunden und Tage und nach erfolgter Kündigung die für das Aufsuchen einer anderen Arbeitsstelle erforderliche Zeit zu gewähren.
+78;;329;;4;;;;;;Bei der Bestimmung der Freizeit ist auf die Interessen des Arbeitgebers wie des Arbeitnehmers angemessen Rücksicht zu nehmen.
+79;;329a;;1;;;;;;"Der Arbeitgeber hat dem Arbeitnehmer jedes Dienstjahr wenigstens vier Wochen, dem Arbeitnehmer bis zum vollendeten 20. Altersjahr wenigstens fünf Wochen Ferien zu gewähren."
+80;;329a;;2;;;;;;…
+81;;329a;;3;;;;;;Für ein unvollständiges Dienstjahr sind Ferien entsprechend der Dauer des Arbeitsverhältnisses im betreffenden Dienstjahr zu gewähren.
+82;;329b;;1;;;;;;"Ist der Arbeitnehmer durch sein Verschulden während eines Dienstjahres insgesamt um mehr als einen Monat an der Arbeitsleistung verhindert, so kann der Arbeitgeber die Ferien für jeden vollen Monat der Verhinderung um einen Zwölftel kürzen."
+83;;329b;;2;;;;;;"Beträgt die Verhinderung insgesamt nicht mehr als einen Monat im Dienstjahr und ist sie durch Gründe, die in der Person des Arbeitnehmers liegen, wie Krankheit, Unfall, Erfüllung gesetzlicher Pflichten, Ausübung eines öffentlichen Amtes oder Jugendurlaub, ohne Verschulden des Arbeitnehmers verursacht, so dürfen die Ferien vom Arbeitgeber nicht gekürzt werden."
+84;;329b;;3;;;;;;"Die Ferien dürfen vom Arbeitgeber auch nicht gekürzt werden, wenn:"
+85;;329b;;3;;a;;;;eine Arbeitnehmerin wegen Schwangerschaft bis zu zwei Monate an der Arbeitsleistung verhindert ist;
+86;;329b;;3;;b;;;;eine Arbeitnehmerin einen Mutterschaftsurlaub nach Artikel 329f bezogen hat;
+87;;329b;;3;;c;;;;eine Arbeitnehmerin oder ein Arbeitnehmer den Urlaub des andern Elternteils nach Artikel 329g oder den Urlaub im Falle des Todes der Mutter nach Artikel 329gbis bezogen hat;
+88;;329b;;3;;d;;;;"eine Arbeitnehmerin oder ein Arbeitnehmer einen Betreuungsurlaub nach Artikel 329i bezogen hat,"
+89;;329b;;3;;e;;;;eine Arbeitnehmerin oder ein Arbeitnehmer einen Adoptionsurlaub nach Artikel 329j bezogen hat.
+90;;329c;;1;;;;;;Die Ferien sind in der Regel im Verlauf des betreffenden Dienstjahres zu gewähren; wenigstens zwei Ferienwochen müssen zusammenhängen.
+91;;329c;;2;;;;;;"Der Arbeitgeber bestimmt den Zeitpunkt der Ferien und nimmt dabei auf die Wünsche des Arbeitnehmers soweit Rücksicht, als dies mit den Interessen des Betriebes oder Haushaltes vereinbar ist."
+92;;329d;;1;;;;;;Der Arbeitgeber hat dem Arbeitnehmer für die Ferien den gesamten darauf entfallenden Lohn und eine angemessene Entschädigung für ausfallenden Naturallohn zu entrichten.
+93;;329d;;2;;;;;;Die Ferien dürfen während der Dauer des Arbeitsverhältnisses nicht durch Geldleistungen oder andere Vergünstigungen abgegolten werden.
+94;;329d;;3;;;;;;"Leistet der Arbeitnehmer während der Ferien entgeltliche Arbeit für einen Dritten und werden dadurch die berechtigten Interessen des Arbeitgebers verletzt, so kann dieser den Ferienlohn verweigern und bereits bezahlten Ferienlohn zurückverlangen."
+95;;329e;;1;;;;;;"Der Arbeitgeber hat dem Arbeitnehmer bis zum vollendeten 30. Altersjahr für unentgeltliche leitende, betreuende oder beratende Tätigkeit im Rahmen ausserschulischer Jugendarbeit in einer kulturellen oder sozialen Organisation sowie für die dazu notwendige Aus- und Weiterbildung jedes Dienstjahr Jugendurlaub bis zu insgesamt einer Arbeitswoche zu gewähren."
+96;;329e;;2;;;;;;"Der Arbeitnehmer hat während des Jugendurlaubs keinen Lohnanspruch. Durch Abrede, Normalarbeitsvertrag oder Gesamtarbeitsvertrag kann zugunsten des Arbeitnehmers eine andere Regelung getroffen werden."
+97;;329e;;3;;;;;;"Über den Zeitpunkt und die Dauer des Jugendurlaubs einigen sich Arbeitgeber und Arbeitnehmer; sie berücksichtigen dabei ihre beidseitigen Interessen. Kommt eine Einigung nicht zustande, dann muss der Jugendurlaub gewährt werden, wenn der Arbeitnehmer dem Arbeitgeber die Geltendmachung seines Anspruches zwei Monate im Voraus angezeigt hat. Nicht bezogene Jugendurlaubstage verfallen am Ende des Kalenderjahres."
+98;;329e;;4;;;;;;Der Arbeitnehmer hat auf Verlangen des Arbeitgebers seine Tätigkeiten und Funktionen in der Jugendarbeit nachzuweisen.
+99;;329f;;1;;;;;;Nach der Niederkunft hat die Arbeitnehmerin Anspruch auf einen Mutterschaftsurlaub von mindestens 14 Wochen.
+100;;329f;;2;;;;;;Bei Hospitalisierung des Neugeborenen verlängert sich der Mutterschaftsurlaub um die verlängerte Dauer der Ausrichtung der Mutterschaftsentschädigung.
+101;;329f;;3;;;;;;Im Falle des Todes des andern Elternteils während der sechs Monate nach der Geburt des Kindes hat die Arbeitnehmerin Anspruch auf zwei Wochen zusätzlichen Urlaub; sie kann diesen Urlaub innert einer Rahmenfrist von sechs Monaten ab dem Tag nach dem Tod wochen- oder tageweise beziehen.
+102;;329g;;1;;;;;;Anspruch auf den Urlaub des andern Elternteils von zwei Wochen hat:
+103;;329g;;1;;a;;;;"der Arbeitnehmer, der im Zeitpunkt der Geburt des Kindes dessen rechtlicher Vater ist oder dies innerhalb der folgenden sechs Monate wird;"
+104;;329g;;1;;b;;;;"die Arbeitnehmerin, die im Zeitpunkt der Geburt des Kindes der rechtliche andere Elternteil ist."
+105;;329g;;2;;;;;;Der Urlaub muss innert der sechs Monate nach der Geburt des Kindes bezogen werden. Diese Frist steht während des Urlaubs nach Artikel 329gbis still.
+106;;329g;;3;;;;;;Der Urlaub kann wochen- oder tageweise bezogen werden.
+107;;329g;;1;;;;;;"Stirbt die Mutter am Tag der Niederkunft oder während der 14 Wochen danach, so hat der andere Elternteil Anspruch auf einen Urlaub von 14 Wochen; dieser Urlaub muss ab dem Tag nach dem Tod an aufeinanderfolgenden Tagen bezogen werden."
+108;;329g;;2;;;;;;"Der andere Elternteil hat Anspruch auf den Urlaub, wenn das Kindesverhältnis am Todestag begründet ist oder während der 14 Wochen danach begründet wird."
+109;;329g;;3;;;;;;"Bei Hospitalisierung des Neugeborenen nach Artikel 329f Absatz 2 verlängert sich der Urlaub nach Absatz 1 um die Dauer der Hospitalisierung, höchstens jedoch um acht Wochen."
+110;;329h;;;;;;;;"Die Arbeitnehmerin oder der Arbeitnehmer hat Anspruch auf bezahlten Urlaub für die Zeit, die zur Betreuung eines Familienmitglieds, der Lebenspartnerin oder des Lebenspartners mit gesundheitlicher Beeinträchtigung notwendig ist; der Urlaub beträgt jedoch höchstens drei Tage pro Ereignis und höchstens zehn Tage pro Jahr."
+111;;329i;;1;;;;;;"Hat die Arbeitnehmerin oder der Arbeitnehmer Anspruch auf eine Betreuungsentschädigung nach den Artikeln 16n–16s EOG144, weil ihr oder sein Kind wegen Krankheit oder Unfall gesundheitlich schwer beeinträchtigt ist, so hat sie oder er Anspruch auf einen Betreuungsurlaub von höchstens 14 Wochen."
+112;;329i;;2;;;;;;"Der Betreuungsurlaub ist innerhalb einer Rahmenfrist von 18 Monaten zu beziehen. Die Rahmenfrist beginnt mit dem Tag, für den das erste Taggeld bezogen wird."
+113;;329i;;3;;;;;;"Sind beide Eltern Arbeitnehmende, so hat jeder Elternteil Anspruch auf einen Betreuungsurlaub von höchstens sieben Wochen. Sie können eine abweichende Aufteilung des Urlaubs wählen."
+114;;329i;;4;;;;;;Der Urlaub kann am Stück oder tageweise bezogen werden.
+115;;329i;;5;;;;;;Der Arbeitgeber ist über die Modalitäten des Urlaubsbezugs sowie über Änderungen unverzüglich zu informieren.
+116;;329j;;1;;;;;;"Nimmt die Arbeitnehmerin oder der Arbeitnehmer ein Kind zur Adoption auf, so hat sie oder er bei Erfüllen der Voraussetzungen gemäss Artikel 16t EOG146 Anspruch auf einen Adoptionsurlaub von zwei Wochen."
+117;;329j;;2;;;;;;Der Adoptionsurlaub muss innerhalb des ersten Jahres nach Aufnahme des Kindes bezogen werden.
+118;;329j;;3;;;;;;Er kann von einem Elternteil bezogen oder unter den Eltern aufgeteilt werden. Ein gleichzeitiger Bezug ist ausgeschlossen.
+119;;329j;;4;;;;;;Er kann wochen- oder tageweise bezogen werden.
+120;;330;;1;;;;;;"Übergibt der Arbeitnehmer zur Sicherung seiner Verpflichtungen aus dem Arbeitsverhältnis dem Arbeitgeber eine Kaution, so hat sie dieser von seinem Vermögen getrennt zu halten und ihm dafür Sicherheit zu leisten."
+121;;330;;2;;;;;;"Der Arbeitgeber hat die Kaution spätestens bei Beendigung des Arbeitsverhältnisses zurückzugeben, sofern nicht durch schriftliche Abrede der Zeitpunkt der Rückgabe hinausgeschoben ist."
+122;;330;;3;;;;;;"Macht der Arbeitgeber Forderungen aus dem Arbeitsverhältnis geltend und sind diese streitig, so kann er die Kaution bis zum Entscheid darüber insoweit zurückbehalten, muss aber auf Verlangen des Arbeitnehmers den zurückbehaltenen Betrag gerichtlich hinterlegen."
+123;;330;;4;;;;;;"Im Konkurs des Arbeitgebers kann der Arbeitnehmer die Rückgabe der von dem Vermögen des Arbeitgebers getrennt gehaltenen Kaution verlangen, unter Vorbehalt der Forderungen des Arbeitgebers aus dem Arbeitsverhältnis."
+124;;330a;;1;;;;;;"Der Arbeitnehmer kann jederzeit vom Arbeitgeber ein Zeugnis verlangen, das sich über die Art und Dauer des Arbeitsverhältnisses sowie über seine Leistungen und sein Verhalten ausspricht."
+125;;330a;;2;;;;;;Auf besonderes Verlangen des Arbeitnehmers hat sich das Zeugnis auf Angaben über die Art und Dauer des Arbeitsverhältnisses zu beschränken.
+126;;330b;;1;;;;;;"Wurde das Arbeitsverhältnis auf unbestimmte Zeit oder für mehr als einen Monat eingegangen, so muss der Arbeitgeber spätestens einen Monat nach Beginn des Arbeitsverhältnisses den Arbeitnehmer schriftlich informieren über:"
+127;;330b;;1;;a;;;;die Namen der Vertragsparteien;
+128;;330b;;1;;b;;;;das Datum des Beginns des Arbeitsverhältnisses;
+129;;330b;;1;;c;;;;die Funktion des Arbeitnehmers;
+130;;330b;;1;;d;;;;den Lohn und allfällige Lohnzuschläge;
+131;;330b;;1;;e;;;;die wöchentliche Arbeitszeit.
+132;;330b;;2;;;;;;"Werden Vertragselemente, die nach Absatz 1 mitteilungspflichtig sind, während des Arbeitsverhältnisses geändert, so sind die Änderungen dem Arbeitnehmer spätestens einen Monat nachdem sie wirksam geworden sind, schriftlich mitzuteilen."
+133;;331;;1;;;;;;"Macht der Arbeitgeber Zuwendungen für die Personalvorsorge oder leisten die Arbeitnehmer Beiträge daran, so hat der Arbeitgeber diese Zuwendungen und Beiträge auf eine Stiftung, eine Genossenschaft oder eine Einrichtung des öffentlichen Rechtes zu übertragen."
+134;;331;;2;;;;;;"Werden die Zuwendungen des Arbeitgebers und allfällige Beiträge des Arbeitnehmers zu dessen Gunsten für eine Kranken-, Unfall-, Lebens-, Invaliden- oder Todesfallversicherung bei einer der Versicherungsaufsicht unterstellten Unternehmung oder bei einer anerkannten Krankenkasse verwendet, so hat der Arbeitgeber die Übertragung gemäss vorstehendem Absatz nicht vorzunehmen, wenn dem Arbeitnehmer mit dem Eintritt des Versicherungsfalles ein selbständiges Forderungsrecht gegen den Versicherungsträger zusteht."
+135;;331;;3;;;;;;"Hat der Arbeitnehmer Beiträge an eine Vorsorgeeinrichtung zu leisten, so ist der Arbeitgeber verpflichtet, zur gleichen Zeit mindestens gleich hohe Beiträge wie die gesamten Beiträge aller Arbeitnehmer zu entrichten; er erbringt seine Beiträge aus eigenen Mitteln oder aus Beitragsreserven der Vorsorgeeinrichtung, die von ihm vorgängig hierfür geäufnet worden und gesondert ausgewiesen sind. Der Arbeitgeber muss den vom Lohn des Arbeitnehmers abgezogenen Beitragsanteil zusammen mit seinem Beitragsanteil spätestens am Ende des ersten Monats nach dem Kalender- oder Versicherungsjahr, für das die Beiträge geschuldet sind, an die Vorsorgeeinrichtung überweisen."
+136;;331;;4;;;;;;Der Arbeitgeber hat dem Arbeitnehmer über die ihm gegen eine Vorsorgeeinrichtung oder einen Versicherungsträger zustehenden Forderungsrechte den erforderlichen Aufschluss zu erteilen.
+137;;331;;5;;;;;;"Auf Verlangen der Zentralstelle 2. Säule ist der Arbeitgeber verpflichtet, ihr die Angaben zu liefern, die ihm vorliegen und die geeignet sind, die Berechtigten vergessener Guthaben oder die Einrichtungen, welche solche Guthaben führen, zu finden."
+138;;331a;;1;;;;;;"Der Vorsorgeschutz beginnt mit dem Tag, an dem das Arbeitsverhältnis anfängt, und endet an dem Tag, an welchem der Arbeitnehmer die Vorsorgeeinrichtung verlässt."
+139;;331a;;2;;;;;;"Der Arbeitnehmer geniesst jedoch einen Vorsorgeschutz gegen Tod und Invalidität, bis er in ein neues Vorsorgeverhältnis eingetreten ist, längstens aber während eines Monats."
+140;;331a;;3;;;;;;Für den nach Beendigung des Vorsorgeverhältnisses gewährten Vorsorgeschutz kann die Vorsorgeeinrichtung vom Arbeitnehmer Risikobeiträge verlangen.
+141;;331b;;;;;;;;Die Forderung auf künftige Vorsorgeleistungen kann vor der Fälligkeit gültig weder abgetreten noch verpfändet werden.
+142;;331c;;;;;;;;Vorsorgeeinrichtungen dürfen für die Risiken Tod und Invalidität einen Vorbehalt aus gesundheitlichen Gründen machen. Dieser darf höchstens fünf Jahre betragen.
+143;;331d;;1;;;;;;Der Arbeitnehmer kann bis drei Jahre vor Entstehung des Anspruchs auf Altersleistungen seinen Anspruch auf Vorsorgeleistungen oder einen Betrag bis zur Höhe seiner Freizügigkeitsleistung für Wohneigentum zum eigenen Bedarf verpfänden.
+144;;331d;;2;;;;;;"Die Verpfändung ist auch zulässig für den Erwerb von Anteilscheinen einer Wohnbaugenossenschaft oder ähnlicher Beteiligungen, wenn der Arbeitnehmer eine dadurch mitfinanzierte Wohnung selbst benutzt."
+145;;331d;;3;;;;;;Die Verpfändung bedarf zu ihrer Gültigkeit der schriftlichen Anzeige an die Vorsorgeeinrichtung.
+146;;331d;;4;;;;;;"Arbeitnehmer, die das 50. Altersjahr überschritten haben, dürfen höchstens die Freizügigkeitsleistung, auf die sie im 50. Altersjahr Anspruch gehabt hätten, oder die Hälfte der Freizügigkeitsleistung im Zeitpunkt der Verpfändung als Pfand einsetzen."
+147;;331d;;5;;;;;;"Ist der Arbeitnehmer verheiratet, so ist die Verpfändung nur zulässig, wenn sein Ehegatte schriftlich zustimmt. Kann der Arbeitnehmer die Zustimmung nicht einholen oder wird sie ihm verweigert, so kann er das Zivilgericht anrufen. Die gleiche Regelung gilt bei eingetragenen Partnerschaften."
+148;;331d;;6;;;;;;"Wird das Pfand vor dem Vorsorgefall oder vor der Barauszahlung verwertet, so finden die Artikel 30d, 30e, 30g und 83a des Bundesgesetzes vom 25. Juni 1982 über die berufliche Alters-, Hinterlassenen- und Invalidenvorsorge Anwendung."
+149;;331d;;7;;;;;;Der Bundesrat bestimmt:
+150;;331d;;7;;a;;;;die zulässigen Verpfändungszwecke und den Begriff «Wohneigentum zum eigenen Bedarf»;
+151;;331d;;7;;b;;;;welche Voraussetzungen bei der Verpfändung von Anteilscheinen einer Wohnbaugenossenschaft oder ähnlicher Beteiligungen zu erfüllen sind.
+152;;331e;;1;;;;;;Der Arbeitnehmer kann bis drei Jahre vor Entstehung des Anspruchs auf Altersleistungen von seiner Vorsorgeeinrichtung einen Betrag für Wohneigentum zum eigenen Bedarf geltend machen.
+153;;331e;;2;;;;;;"Arbeitnehmer dürfen bis zum 50. Altersjahr einen Betrag bis zur Höhe der Freizügigkeitsleistung beziehen. Versicherte, die das 50. Altersjahr überschritten haben, dürfen höchstens die Freizügigkeitsleistung, auf die sie im 50. Altersjahr Anspruch gehabt hätten, oder die Hälfte der Freizügigkeitsleistung im Zeitpunkt des Bezuges in Anspruch nehmen."
+154;;331e;;3;;;;;;"Der Arbeitnehmer kann diesen Betrag auch für den Erwerb von Anteilscheinen einer Wohnbaugenossenschaft oder ähnlicher Beteiligungen verwenden, wenn er eine dadurch mitfinanzierte Wohnung selbst benutzt."
+155;;331e;;4;;;;;;"Mit dem Bezug wird gleichzeitig der Anspruch auf Vorsorgeleistungen entsprechend den jeweiligen Vorsorgereglementen und den technischen Grundlagen der Vorsorgeeinrichtung gekürzt. Um eine Einbusse des Vorsorgeschutzes durch eine Leistungskürzung bei Tod oder Invalidität zu vermeiden, bietet die Vorsorgeeinrichtung eine Zusatzversicherung an oder vermittelt eine solche."
+156;;331e;;5;;;;;;"Ist der Arbeitnehmer verheiratet, so sind der Bezug und jede nachfolgende Begründung eines Grundpfandrechts nur zulässig, wenn sein Ehegatte schriftlich zustimmt. Kann der Arbeitnehmer die Zustimmung nicht einholen oder wird sie ihm verweigert, so kann er das Zivilgericht anrufen. Die gleiche Regelung gilt bei eingetragenen Partnerschaften."
+157;;331e;;6;;;;;;"Werden Ehegatten vor Eintritt eines Vorsorgefalles geschieden, so gilt der Vorbezug als Freizügigkeitsleistung und wird nach Artikel 123 des Zivilgesetzbuches, den Artikeln 280 und 281 ZPO164 und den Artikeln 22–22b des Freizügigkeitsgesetzes vom 17. Dezember 1993 geteilt. Die gleiche Regelung gilt bei gerichtlicher Auflösung einer eingetragenen Partnerschaft."
+158;;331e;;7;;;;;;"Wird durch den Vorbezug oder die Verpfändung die Liquidität der Vorsorgeeinrichtung in Frage gestellt, so kann diese die Erledigung der entsprechenden Gesuche aufschieben. Sie legt in ihrem Reglement eine Prioritätenordnung für das Aufschieben dieser Vorbezüge beziehungsweise Verpfändungen fest. Der Bundesrat regelt die Einzelheiten."
+159;;331e;;8;;;;;;"Im Übrigen gelten die Artikel 30d, 30e, 30g und 83a des Bundesgesetzes vom 25. Juni 1982 über die berufliche Alters-, Hinterlassenen- und Invalidenvorsorge."
+160;;331f;;1;;;;;;"Die Vorsorgeeinrichtung kann in ihrem Reglement vorsehen, dass während der Dauer einer Unterdeckung die Verpfändung, der Vorbezug und die Rückzahlung zeitlich und betragsmässig eingeschränkt oder ganz verweigert werden können."
+161;;331f;;2;;;;;;"Der Bundesrat legt die Voraussetzungen fest, unter denen die Einschränkungen nach Absatz 1 zulässig sind, und bestimmt deren Umfang."
+162;;332;;1;;;;;;"Erfindungen und Designs, die der Arbeitnehmer bei Ausübung seiner dienstlichen Tätigkeit und in Erfüllung seiner vertraglichen Pflichten macht oder an deren Hervorbringung er mitwirkt, gehören unabhängig von ihrer Schutzfähigkeit dem Arbeitgeber."
+163;;332;;2;;;;;;"Durch schriftliche Abrede kann sich der Arbeitgeber den Erwerb von Erfindungen und Designs ausbedingen, die vom Arbeitnehmer bei Ausübung seiner dienstlichen Tätigkeit, aber nicht in Erfüllung seiner vertraglichen Pflichten gemacht werden."
+164;;332;;3;;;;;;"Der Arbeitnehmer, der eine Erfindung oder ein Design gemäss Absatz 2 macht, hat davon dem Arbeitgeber schriftlich Kenntnis zu geben; dieser hat ihm innert sechs Monaten schriftlich mitzuteilen, ob er die Erfindung beziehungsweise das Design erwerben will oder sie dem Arbeitnehmer freigibt."
+165;;332;;4;;;;;;"Wird die Erfindung oder das Design dem Arbeitnehmer nicht freigegeben, so hat ihm der Arbeitgeber eine besondere angemessene Vergütung auszurichten; bei deren Festsetzung sind alle Umstände zu berücksichtigen, wie namentlich der wirtschaftliche Wert der Erfindung beziehungsweise des Designs, die Mitwirkung des Arbeitgebers, die Inanspruchnahme seiner Hilfspersonen und Betriebseinrichtungen, sowie die Aufwendungen des Arbeitnehmers und seine Stellung im Betrieb."
+166;;333;;1;;;;;;"Überträgt der Arbeitgeber den Betrieb oder einen Betriebsteil auf einen Dritten, so geht das Arbeitsverhältnis mit allen Rechten und Pflichten mit dem Tage der Betriebsnachfolge auf den Erwerber über, sofern der Arbeitnehmer den Übergang nicht ablehnt. Ist auf das übertragene Arbeitsverhältnis ein Gesamtarbeitsvertrag anwendbar, so muss der Erwerber diesen während eines Jahres einhalten, sofern er nicht vorher abläuft oder infolge Kündigung endet."
+167;;333;;2;;;;;;Bei Ablehnung des Überganges wird das Arbeitsverhältnis auf den Ablauf der gesetzlichen Kündigungsfrist aufgelöst; der Erwerber des Betriebes und der Arbeitnehmer sind bis dahin zur Erfüllung des Vertrages verpflichtet.
+168;;333;;3;;;;;;"Der bisherige Arbeitgeber und der Erwerber des Betriebes haften solidarisch für die Forderungen des Arbeitnehmers, die vor dem Übergang fällig geworden sind und die nachher bis zum Zeitpunkt fällig werden, auf den das Arbeitsverhältnis ordentlicherweise beendigt werden könnte oder bei Ablehnung des Überganges durch den Arbeitnehmer beendigt wird."
+169;;333;;4;;;;;;"Im übrigen ist der Arbeitgeber nicht berechtigt, die Rechte aus dem Arbeitsverhältnis auf einen Dritten zu übertragen, sofern nichts anderes verabredet ist oder sich aus den Umständen ergibt."
+170;;333a;;1;;;;;;"Überträgt ein Arbeitgeber den Betrieb oder einen Betriebsteil auf einen Dritten, so hat er die Arbeitnehmervertretung oder, falls es keine solche gibt, die Arbeitnehmer rechtzeitig vor dem Vollzug des Übergangs zu informieren über:"
+171;;333a;;1;;a;;;;den Grund des Übergangs;
+172;;333a;;1;;b;;;;"die rechtlichen, wirtschaftlichen und sozialen Folgen des Übergangs für die Arbeitnehmer."
+173;;333a;;2;;;;;;"Sind infolge des Übergangs Massnahmen beabsichtigt, welche die Arbeitnehmer betreffen, so ist die Arbeitnehmervertretung oder, falls es keine solche gibt, sind die Arbeitnehmer rechtzeitig vor dem Entscheid über diese Massnahmen zu konsultieren."
+174;;333b;;;;;;;;"Wird der Betrieb oder der Betriebsteil während einer Nachlassstundung, im Rahmen eines Konkurses oder eines Nachlassvertrages mit Vermögensabtretung übertragen, so geht das Arbeitsverhältnis mit allen Rechten und Pflichten auf den Erwerber über, wenn dies mit dem Erwerber so vereinbart wurde und der Arbeitnehmer den Übergang nicht ablehnt. Im Übrigen gelten die Artikel 333, ausgenommen dessen Absatz 3, und 333a sinngemäss."
+175;;334;;1;;;;;;Ein befristetes Arbeitsverhältnis endigt ohne Kündigung.
+176;;334;;2;;;;;;"Wird ein befristetes Arbeitsverhältnis nach Ablauf der vereinbarten Dauer stillschweigend fortgesetzt, so gilt es als unbefristetes Arbeitsverhältnis."
+177;;334;;3;;;;;;Nach Ablauf von zehn Jahren kann jede Vertragspartei ein auf längere Dauer abgeschlossenes befristetes Arbeitsverhältnis jederzeit mit einer Kündigungsfrist von sechs Monaten auf das Ende eines Monats kündigen.
+178;;335;;1;;;;;;Ein unbefristetes Arbeitsverhältnis kann von jeder Vertragspartei gekündigt werden.
+179;;335;;2;;;;;;"Der Kündigende muss die Kündigung schriftlich begründen, wenn die andere Partei dies verlangt."
+180;;335a;;1;;;;;;Für Arbeitgeber und Arbeitnehmer dürfen keine verschiedenen Kündigungsfristen festgesetzt werden; bei widersprechender Abrede gilt für beide die längere Frist.
+181;;335a;;2;;;;;;"Hat der Arbeitgeber das Arbeitsverhältnis aus wirtschaftlichen Gründen gekündigt oder eine entsprechende Absicht kundgetan, so dürfen jedoch durch Abrede, Normalarbeitsvertrag oder Gesamtarbeitsvertrag für den Arbeitnehmer kürzere Kündigungsfristen vereinbart werden."
+182;;335b;;1;;;;;;Das Arbeitsverhältnis kann während der Probezeit jederzeit mit einer Kündigungsfrist von sieben Tagen gekündigt werden; als Probezeit gilt der erste Monat eines Arbeitsverhältnisses.
+183;;335b;;2;;;;;;"Durch schriftliche Abrede, Normalarbeitsvertrag oder Gesamtarbeitsvertrag können abweichende Vereinbarungen getroffen werden; die Probezeit darf jedoch auf höchstens drei Monate verlängert werden."
+184;;335b;;3;;;;;;"Bei einer effektiven Verkürzung der Probezeit infolge Krankheit, Unfall oder Erfüllung einer nicht freiwillig übernommenen gesetzlichen Pflicht erfolgt eine entsprechende Verlängerung der Probezeit."
+185;;335c;;1;;;;;;"Das Arbeitsverhältnis kann im ersten Dienstjahr mit einer Kündigungsfrist von einem Monat, im zweiten bis und mit dem neunten Dienstjahr mit einer Frist von zwei Monaten und nachher mit einer Frist von drei Monaten je auf das Ende eines Monats gekündigt werden."
+186;;335c;;2;;;;;;"Diese Fristen dürfen durch schriftliche Abrede, Normalarbeitsvertrag oder Gesamtarbeitsvertrag abgeändert werden; unter einen Monat dürfen sie jedoch nur durch Gesamtarbeitsvertrag und nur für das erste Dienstjahr herabgesetzt werden."
+187;;335c;;3;;;;;;"Kündigt der Arbeitgeber das Arbeitsverhältnis und hat die Arbeitnehmerin oder der Arbeitnehmer vor Ende des Arbeitsverhältnisses Anspruch auf den Urlaub des andern Elternteils nach Artikel 329g, so wird die Kündigungsfrist um die noch nicht bezogenen Urlaubstage verlängert."
+188;;335d;;;;;;;;"Als Massenentlassung gelten Kündigungen, die der Arbeitgeber innert 30 Tagen in einem Betrieb aus Gründen ausspricht, die in keinem Zusammenhang mit der Person des Arbeitnehmers stehen, und von denen betroffen werden:"
+189;;335d;;1;;;;;;"mindestens 10 Arbeitnehmer in Betrieben, die in der Regel mehr als 20 und weniger als 100 Arbeitnehmer beschäftigen;"
+190;;335d;;2;;;;;;"mindestens 10 Prozent der Arbeitnehmer in Betrieben, die in der Regel mindestens 100 und weniger als 300 Arbeitnehmer beschäftigen;"
+191;;335d;;3;;;;;;"mindestens 30 Arbeitnehmer in Betrieben, die in der Regel mindestens 300 Arbeitnehmer beschäftigen."
+192;;335e;;1;;;;;;"Die Bestimmungen über die Massenentlassung gelten auch für befristete Arbeitsverhältnisse, wenn diese vor Ablauf der vereinbarten Dauer enden."
+193;;335e;;2;;;;;;Sie gelten nicht für Betriebseinstellungen infolge gerichtlicher Entscheide sowie bei Massenentlassung im Konkurs oder bei einem Nachlassvertrag mit Vermögensabtretung.
+194;;335f;;1;;;;;;"Beabsichtigt der Arbeitgeber, eine Massenentlassung vorzunehmen, so hat er die Arbeitnehmervertretung oder, falls es keine solche gibt, die Arbeitnehmer zu konsultieren."
+195;;335f;;2;;;;;;"Er gibt ihnen zumindest die Möglichkeit, Vorschläge zu unterbreiten, wie die Kündigungen vermieden oder deren Zahl beschränkt sowie ihre Folgen gemildert werden können."
+196;;335f;;3;;;;;;"Er muss der Arbeitnehmervertretung oder, falls es keine solche gibt, den Arbeitnehmern alle zweckdienlichen Auskünfte erteilen und ihnen auf jeden Fall schriftlich mitteilen:"
+197;;335f;;3;;a;;;;die Gründe der Massenentlassung;
+198;;335f;;3;;b;;;;"die Zahl der Arbeitnehmer, denen gekündigt werden soll;"
+199;;335f;;3;;c;;;;die Zahl der in der Regel beschäftigten Arbeitnehmer;
+200;;335f;;3;;d;;;;"den Zeitraum, in dem die Kündigungen ausgesprochen werden sollen."
+201;;335f;;4;;;;;;Er stellt dem kantonalen Arbeitsamt eine Kopie der Mitteilung nach Absatz 3 zu.
+202;;335g;;1;;;;;;"Der Arbeitgeber hat dem kantonalen Arbeitsamt jede beabsichtigte Massenentlassung schriftlich anzuzeigen und der Arbeitnehmervertretung oder, falls es keine solche gibt, den Arbeitnehmern eine Kopie dieser Anzeige zuzustellen."
+203;;335g;;2;;;;;;Die Anzeige muss die Ergebnisse der Konsultation der Arbeitnehmervertretung (Art. 335f) und alle zweckdienlichen Angaben über die beabsichtigte Massenentlassung enthalten.
+204;;335g;;3;;;;;;"Das kantonale Arbeitsamt sucht nach Lösungen für die Probleme, welche die beabsichtigte Massenentlassung aufwirft. Die Arbeitnehmervertretung oder, falls es keine solche gibt, die Arbeitnehmer können ihm ihre Bemerkungen einreichen."
+205;;335g;;4;;;;;;"Ist das Arbeitsverhältnis im Rahmen einer Massenentlassung gekündigt worden, so endet es 30 Tage nach der Anzeige der beabsichtigten Massenentlassung an das kantonale Arbeitsamt, ausser wenn die Kündigung nach den vertraglichen oder gesetzlichen Bestimmungen auf einen späteren Termin wirksam wird."
+206;;335h;;1;;;;;;"Der Sozialplan ist eine Vereinbarung, in welcher der Arbeitgeber und die Arbeitnehmer die Massnahmen festlegen, mit denen Kündigungen vermieden, deren Zahl beschränkt sowie deren Folgen gemildert werden."
+207;;335h;;2;;;;;;Er darf den Fortbestand des Betriebs nicht gefährden.
+208;;335i;;1;;;;;;"Der Arbeitgeber muss mit den Arbeitnehmern Verhandlungen mit dem Ziel führen, einen Sozialplan aufzustellen, wenn er:"
+209;;335i;;1;;a;;;;üblicherweise mindestens 250 Arbeitnehmer beschäftigt; und
+210;;335i;;1;;b;;;;"beabsichtigt, innert 30 Tagen mindestens 30 Arbeitnehmern aus Gründen zu kündigen, die in keinem Zusammenhang mit ihrer Person stehen."
+211;;335i;;2;;;;;;"Zeitlich verteilte Kündigungen, die auf dem gleichen betrieblichen Entscheid beruhen, werden zusammengezählt."
+212;;335i;;3;;;;;;Der Arbeitgeber verhandelt:
+213;;335i;;3;;a;;;;"mit den am Gesamtarbeitsvertrag beteiligten Arbeitnehmerverbänden, wenn er Partei dieses Gesamtarbeitsvertrags ist;"
+214;;335i;;3;;b;;;;mit der Arbeitnehmervertretung; oder
+215;;335i;;3;;c;;;;"direkt mit den Arbeitnehmern, wenn es keine Arbeitnehmervertretung gibt."
+216;;335i;;4;;;;;;"Die Arbeitnehmerverbände, die Arbeitnehmervertretung oder die Arbeitnehmer können zu den Verhandlungen Sachverständige heranziehen. Diese sind gegenüber betriebsfremden Personen zur Verschwiegenheit verpflichtet."
+217;;335j;;1;;;;;;"Können sich die Parteien nicht auf einen Sozialplan einigen, so muss ein Schiedsgericht bestellt werden."
+218;;335j;;2;;;;;;Das Schiedsgericht stellt einen Sozialplan durch verbindlichen Schiedsspruch auf.
+219;;335k;;;;;;;;"Die Bestimmungen über den Sozialplan (Art. 335h–335j) gelten nicht bei Massenentlassungen, die während eines Konkurs- oder Nachlassverfahrens erfolgen, das mit einem Nachlassvertrag abgeschlossen wird."
+220;;336;;1;;;;;;"Die Kündigung eines Arbeitsverhältnisses ist missbräuchlich, wenn eine Partei sie ausspricht:"
+221;;336;;1;;a;;;;"wegen einer Eigenschaft, die der anderen Partei kraft ihrer Persönlichkeit zusteht, es sei denn, diese Eigenschaft stehe in einem Zusammenhang mit dem Arbeitsverhältnis oder beeinträchtige wesentlich die Zusammenarbeit im Betrieb;"
+222;;336;;1;;b;;;;"weil die andere Partei ein verfassungsmässiges Recht ausübt, es sei denn, die Rechtsausübung verletze eine Pflicht aus dem Arbeitsverhältnis oder beeinträchtige wesentlich die Zusammenarbeit im Betrieb;"
+223;;336;;1;;c;;;;ausschliesslich um die Entstehung von Ansprüchen der anderen Partei aus dem Arbeitsverhältnis zu vereiteln;
+224;;336;;1;;d;;;;weil die andere Partei nach Treu und Glauben Ansprüche aus dem Arbeitsverhältnis geltend macht;
+225;;336;;1;;e;;;;weil die andere Partei schweizerischen obligatorischen Militär- oder Schutzdienst oder schweizerischen Zivildienst leistet oder eine nicht freiwillig übernommene gesetzliche Pflicht erfüllt.
+226;;336;;2;;;;;;"Die Kündigung des Arbeitsverhältnisses durch den Arbeitgeber ist im Weiteren missbräuchlich, wenn sie ausgesprochen wird:"
+227;;336;;2;;a;;;;weil der Arbeitnehmer einem Arbeitnehmerverband angehört oder nicht angehört oder weil er eine gewerkschaftliche Tätigkeit rechtmässig ausübt;
+228;;336;;2;;b;;;;"während der Arbeitnehmer gewählter Arbeitnehmervertreter in einer betrieblichen oder in einer dem Unternehmen angeschlossenen Einrichtung ist, und der Arbeitgeber nicht beweisen kann, dass er einen begründeten Anlass zur Kündigung hatte;"
+229;;336;;2;;c;;;;"im Rahmen einer Massenentlassung, ohne dass die Arbeitnehmervertretung oder, falls es keine solche gibt, die Arbeitnehmer, konsultiert worden sind (Art. 335f)."
+230;;336;;3;;;;;;"Der Schutz eines Arbeitnehmervertreters nach Absatz 2 Buchstabe b, dessen Mandat infolge Übergangs des Arbeitsverhältnisses endet (Art. 333), besteht so lange weiter, als das Mandat gedauert hätte, falls das Arbeitsverhältnis nicht übertragen worden wäre."
+231;;336a;;1;;;;;;"Die Partei, die das Arbeitsverhältnis missbräuchlich kündigt, hat der anderen Partei eine Entschädigung auszurichten."
+232;;336a;;2;;;;;;"Die Entschädigung wird vom Richter unter Würdigung aller Umstände festgesetzt, darf aber den Betrag nicht übersteigen, der dem Lohn des Arbeitnehmers für sechs Monate entspricht. Schadenersatzansprüche aus einem anderen Rechtstitel sind vorbehalten."
+233;;336a;;3;;;;;;"Ist die Kündigung nach Artikel 336 Absatz 2 Buchstabe c missbräuchlich, so darf die Entschädigung nicht mehr als den Lohn des Arbeitnehmers für zwei Monate betragen."
+234;;336b;;1;;;;;;"Wer gestützt auf Artikel 336 und 336a eine Entschädigung geltend machen will, muss gegen die Kündigung längstens bis zum Ende der Kündigungsfrist beim Kündigenden schriftlich Einsprache erheben."
+235;;336b;;2;;;;;;"Ist die Einsprache gültig erfolgt und einigen sich die Parteien nicht über die Fortsetzung des Arbeitsverhältnisses, so kann die Partei, der gekündigt worden ist, ihren Anspruch auf Entschädigung geltend machen. Wird nicht innert 180 Tagen nach Beendigung des Arbeitsverhältnisses eine Klage anhängig gemacht, ist der Anspruch verwirkt."
+236;;336c;;1;;;;;;Nach Ablauf der Probezeit darf der Arbeitgeber das Arbeitsverhältnis nicht kündigen:
+237;;336c;;1;;a;;;;"während die andere Partei schweizerischen obligatorischen Militär- oder Schutzdienst oder schweizerischen Zivildienst leistet, sowie, sofern die Dienstleistung mehr als elf Tage dauert, während vier Wochen vorher und nachher;"
+238;;336c;;1;;b;;;;"während der Arbeitnehmer ohne eigenes Verschulden durch Krankheit oder durch Unfall ganz oder teilweise an der Arbeitsleistung verhindert ist, und zwar im ersten Dienstjahr während 30 Tagen, ab zweitem bis und mit fünftem Dienstjahr während 90 Tagen und ab sechstem Dienstjahr während 180 Tagen;"
+239;;336c;;1;;c;;;;während der Schwangerschaft und in den 16 Wochen nach der Niederkunft einer Arbeitnehmerin;
+240;;336c;;1;;c;;;;vor dem Ende des verlängerten Mutterschaftsurlaubs nach Artikel 329f Absatz 2;
+241;;336c;;1;;c;;;;"zwischen dem Beginn des Urlaubs nach Artikel 329f Absatz 3 und dem letzten bezogenen Urlaubstag, längstens aber während drei Monaten ab dem Ende der Sperrfrist nach Buchstabe c;"
+242;;336c;;1;;c;;;;"solange der Anspruch auf Betreuungsurlaub nach Artikel 329i besteht, längstens aber während sechs Monaten ab dem Tag, an dem die Rahmenfrist zu laufen beginnt;"
+243;;336c;;1;;c;;;;während des Urlaubs nach Artikel 329gbis;
+244;;336c;;1;;d;;;;während der Arbeitnehmer mit Zustimmung des Arbeitgebers an einer von der zuständigen Bundesbehörde angeordneten Dienstleistung für eine Hilfsaktion im Ausland teilnimmt.
+245;;336c;;2;;;;;;"Die Kündigung, die während einer der in Absatz 1 festgesetzten Sperrfristen erklärt wird, ist nichtig; ist dagegen die Kündigung vor Beginn einer solchen Frist erfolgt, aber die Kündigungsfrist bis dahin noch nicht abgelaufen, so wird deren Ablauf unterbrochen und erst nach Beendigung der Sperrfrist fortgesetzt."
+246;;336c;;3;;;;;;"Gilt für die Beendigung des Arbeitsverhältnisses ein Endtermin, wie das Ende eines Monats oder einer Arbeitswoche, und fällt dieser nicht mit dem Ende der fortgesetzten Kündigungsfrist zusammen, so verlängert sich diese bis zum nächstfolgenden Endtermin."
+247;;336d;;1;;;;;;"Nach Ablauf der Probezeit darf der Arbeitnehmer das Arbeitsverhältnis nicht kündigen, wenn ein Vorgesetzter, dessen Funktionen er auszuüben vermag, oder der Arbeitgeber selbst unter den in Artikel 336c Absatz 1 Buchstabe a angeführten Voraussetzungen an der Ausübung der Tätigkeit verhindert ist und der Arbeitnehmer dessen Tätigkeit während der Verhinderung zu übernehmen hat."
+248;;336d;;2;;;;;;Artikel 336c Absätze 2 und 3 sind entsprechend anwendbar.
+249;;337;;1;;;;;;"Aus wichtigen Gründen kann der Arbeitgeber wie der Arbeitnehmer jederzeit das Arbeitsverhältnis fristlos auflösen; er muss die fristlose Vertragsauflösung schriftlich begründen, wenn die andere Partei dies verlangt."
+250;;337;;2;;;;;;"Als wichtiger Grund gilt namentlich jeder Umstand, bei dessen Vorhandensein dem Kündigenden nach Treu und Glauben die Fortsetzung des Arbeitsverhältnisses nicht mehr zugemutet werden darf."
+251;;337;;3;;;;;;"Über das Vorhandensein solcher Umstände entscheidet der Richter nach seinem Ermessen, darf aber in keinem Fall die unverschuldete Verhinderung des Arbeitnehmers an der Arbeitsleistung als wichtigen Grund anerkennen."
+252;;337a;;;;;;;;"Wird der Arbeitgeber zahlungsunfähig, so kann der Arbeitnehmer das Arbeitsverhältnis fristlos auflösen, sofern ihm für seine Forderungen aus dem Arbeitsverhältnis nicht innert angemessener Frist Sicherheit geleistet wird."
+253;;337b;;1;;;;;;"Liegt der wichtige Grund zur fristlosen Auflösung des Arbeitsverhältnisses im vertragswidrigen Verhalten einer Vertragspartei, so hat diese vollen Schadenersatz zu leisten, unter Berücksichtigung aller aus dem Arbeitsverhältnis entstehenden Forderungen."
+254;;337b;;2;;;;;;In den andern Fällen bestimmt der Richter die vermögensrechtlichen Folgen der fristlosen Auflösung unter Würdigung aller Umstände nach seinem Ermessen.
+255;;337c;;1;;;;;;"Entlässt der Arbeitgeber den Arbeitnehmer fristlos ohne wichtigen Grund, so hat dieser Anspruch auf Ersatz dessen, was er verdient hätte, wenn das Arbeitsverhältnis unter Einhaltung der Kündigungsfrist oder durch Ablauf der bestimmten Vertragszeit beendigt worden wäre."
+256;;337c;;2;;;;;;"Der Arbeitnehmer muss sich daran anrechnen lassen, was er infolge der Beendigung des Arbeitsverhältnisses erspart hat und was er durch anderweitige Arbeit verdient oder zu verdienen absichtlich unterlassen hat."
+257;;337c;;3;;;;;;"Der Richter kann den Arbeitgeber verpflichten, dem Arbeitnehmer eine Entschädigung zu bezahlen, die er nach freiem Ermessen unter Würdigung aller Umstände festlegt; diese Entschädigung darf jedoch den Lohn des Arbeitnehmers für sechs Monate nicht übersteigen."
+258;;337d;;1;;;;;;"Tritt der Arbeitnehmer ohne wichtigen Grund die Arbeitsstelle nicht an oder verlässt er sie fristlos, so hat der Arbeitgeber Anspruch auf eine Entschädigung, die einem Viertel des Lohnes für einen Monat entspricht; ausserdem hat er Anspruch auf Ersatz weiteren Schadens."
+259;;337d;;2;;;;;;"Ist dem Arbeitgeber kein Schaden oder ein geringerer Schaden erwachsen, als der Entschädigung gemäss dem vorstehenden Absatz entspricht, so kann sie der Richter nach seinem Ermessen herabsetzen."
+260;;337d;;3;;;;;;"Erlischt der Anspruch auf Entschädigung nicht durch Verrechnung, so ist er durch Klage oder Betreibung innert 30 Tagen seit dem Nichtantritt oder Verlassen der Arbeitsstelle geltend zu machen; andernfalls ist der Anspruch verwirkt."
+261;;337d;;4;;;;;;…
+262;;338;;1;;;;;;Mit dem Tod des Arbeitnehmers erlischt das Arbeitsverhältnis.
+263;;338;;2;;;;;;"Der Arbeitgeber hat jedoch den Lohn für einen weiteren Monat und nach fünfjähriger Dienstdauer für zwei weitere Monate, gerechnet vom Todestag an, zu entrichten, sofern der Arbeitnehmer den Ehegatten, die eingetragene Partnerin, den eingetragenen Partner oder minderjährige Kinder oder bei Fehlen dieser Erben andere Personen hinterlässt, denen gegenüber er eine Unterstützungspflicht erfüllt hat."
+264;;338a;;1;;;;;;Mit dem Tod des Arbeitgebers geht das Arbeitsverhältnis auf die Erben über; die Vorschriften betreffend den Übergang des Arbeitsverhältnisses bei Betriebsnachfolge sind sinngemäss anwendbar.
+265;;338a;;2;;;;;;"Ist das Arbeitsverhältnis wesentlich mit Rücksicht auf die Person des Arbeitgebers eingegangen worden, so erlischt es mit dessen Tod; jedoch kann der Arbeitnehmer angemessenen Ersatz für den Schaden verlangen, der ihm infolge der vorzeitigen Beendigung des Arbeitsverhältnisses erwächst."
+266;;339;;1;;;;;;Mit der Beendigung des Arbeitsverhältnisses werden alle Forderungen aus dem Arbeitsverhältnis fällig.
+267;;339;;2;;;;;;"Für Provisionsforderungen auf Geschäften, die ganz oder teilweise nach Beendigung des Arbeitsverhältnisses erfüllt werden, kann durch schriftliche Abrede die Fälligkeit hinausgeschoben werden, jedoch in der Regel nicht mehr als sechs Monate, bei Geschäften mit gestaffelter Erfüllung nicht mehr als ein Jahr und bei Versicherungsverträgen sowie Geschäften, deren Durchführung mehr als ein halbes Jahr erfordert, nicht mehr als zwei Jahre."
+268;;339;;3;;;;;;Die Forderung auf einen Anteil am Geschäftsergebnis wird fällig nach Massgabe von Artikel 323 Absatz 3.
+269;;339a;;1;;;;;;"Auf den Zeitpunkt der Beendigung des Arbeitsverhältnisses hat jede Vertragspartei der andern alles herauszugeben, was sie für dessen Dauer von ihr oder von Dritten für deren Rechnung erhalten hat."
+270;;339a;;2;;;;;;"Der Arbeitnehmer hat insbesondere Fahrzeuge und Fahrausweise zurückzugeben sowie Lohn- oder Auslagenvorschüsse soweit zurückzuerstatten, als sie seine Forderungen übersteigen."
+271;;339a;;3;;;;;;Vorbehalten bleiben die Retentionsrechte der Vertragsparteien.
+272;;339b;;1;;;;;;"Endigt das Arbeitsverhältnis eines mindestens 50 Jahre alten Arbeitnehmers nach 20 oder mehr Dienstjahren, so hat ihm der Arbeitgeber eine Abgangsentschädigung auszurichten."
+273;;339b;;2;;;;;;"Stirbt der Arbeitnehmer während des Arbeitsverhältnisses, so ist die Entschädigung dem überlebenden Ehegatten, der eingetragenen Partnerin, dem eingetragenen Partner oder den minderjährigen Kindern oder bei Fehlen dieser Erben anderen Personen auszurichten, denen gegenüber er eine Unterstützungspflicht erfüllt hat."
+274;;339c;;1;;;;;;"Die Höhe der Entschädigung kann durch schriftliche Abrede, Normalarbeitsvertrag oder Gesamtarbeitsvertrag bestimmt werden, darf aber den Betrag nicht unterschreiten, der dem Lohn des Arbeitnehmers für zwei Monate entspricht."
+275;;339c;;2;;;;;;"Ist die Höhe der Entschädigung nicht bestimmt, so ist sie vom Richter unter Würdigung aller Umstände nach seinem Ermessen festzusetzen, darf aber den Betrag nicht übersteigen, der dem Lohn des Arbeitnehmers für acht Monate entspricht."
+276;;339c;;3;;;;;;"Die Entschädigung kann herabgesetzt werden oder wegfallen, wenn das Arbeitsverhältnis vom Arbeitnehmer ohne wichtigen Grund gekündigt oder vom Arbeitgeber aus wichtigem Grund fristlos aufgelöst wird, oder wenn dieser durch die Leistung der Entschädigung in eine Notlage versetzt würde."
+277;;339c;;4;;;;;;"Die Entschädigung ist mit der Beendigung des Arbeitsverhältnisses fällig, jedoch kann eine spätere Fälligkeit durch schriftliche Abrede, Normalarbeitsvertrag oder Gesamtarbeitsvertrag bestimmt oder vom Richter angeordnet werden."
+278;;339d;;1;;;;;;"Erhält der Arbeitnehmer Leistungen von einer Personalfürsorgeeinrichtung, so können sie von der Abgangsentschädigung abgezogen werden, soweit diese Leistungen vom Arbeitgeber oder aufgrund seiner Zuwendungen von der Personalfürsorgeeinrichtung finanziert worden sind"
+279;;339d;;2;;;;;;"Der Arbeitgeber hat auch insoweit keine Entschädigung zu leisten, als er dem Arbeitnehmer künftige Vorsorgeleistungen verbindlich zusichert oder durch einen Dritten zusichern lässt."
+280;;340;;1;;;;;;"Der handlungsfähige Arbeitnehmer kann sich gegenüber dem Arbeitgeber schriftlich verpflichten, nach Beendigung des Arbeitsverhältnisses sich jeder konkurrenzierenden Tätigkeit zu enthalten, insbesondere weder auf eigene Rechnung ein Geschäft zu betreiben, das mit dem des Arbeitgebers in Wettbewerb steht, noch in einem solchen Geschäft tätig zu sein oder sich daran zu beteiligen."
+281;;340;;2;;;;;;"Das Konkurrenzverbot ist nur verbindlich, wenn das Arbeitsverhältnis dem Arbeitnehmer Einblick in den Kundenkreis oder in Fabrikations- und Geschäftsgeheimnisse gewährt und die Verwendung dieser Kenntnisse den Arbeitgeber erheblich schädigen könnte."
+282;;340a;;1;;;;;;"Das Verbot ist nach Ort, Zeit und Gegenstand angemessen zu begrenzen, so dass eine unbillige Erschwerung des wirtschaftlichen Fortkommens des Arbeitnehmers ausgeschlossen ist; es darf nur unter besonderen Umständen drei Jahre überschreiten."
+283;;340a;;2;;;;;;Der Richter kann ein übermässiges Konkurrenzverbot unter Würdigung aller Umstände nach seinem Ermessen einschränken; er hat dabei eine allfällige Gegenleistung des Arbeitgebers angemessen zu berücksichtigen.
+284;;340b;;1;;;;;;"Übertritt der Arbeitnehmer das Konkurrenzverbot, so hat er den dem Arbeitgeber erwachsenden Schaden zu ersetzen."
+285;;340b;;2;;;;;;"Ist bei Übertretung des Verbotes eine Konventionalstrafe geschuldet und nichts anderes verabredet, so kann sich der Arbeitnehmer durch deren Leistung vom Verbot befreien; er bleibt jedoch für weiteren Schaden ersatzpflichtig."
+286;;340b;;3;;;;;;"Ist es besonders schriftlich verabredet, so kann der Arbeitgeber neben der Konventionalstrafe und dem Ersatz weiteren Schadens die Beseitigung des vertragswidrigen Zustandes verlangen, sofern die verletzten oder bedrohten Interessen des Arbeitgebers und das Verhalten des Arbeitnehmers dies rechtfertigen."
+287;;340c;;1;;;;;;"Das Konkurrenzverbot fällt dahin, wenn der Arbeitgeber nachweisbar kein erhebliches Interesse mehr hat, es aufrecht zu erhalten."
+288;;340c;;2;;;;;;"Das Verbot fällt ferner dahin, wenn der Arbeitgeber das Arbeitsverhältnis kündigt, ohne dass ihm der Arbeitnehmer dazu begründeten Anlass gegeben hat, oder wenn es dieser aus einem begründeten, vom Arbeitgeber zu verantwortenden Anlass auflöst."
+289;;341;;1;;;;;;"Während der Dauer des Arbeitsverhältnisses und eines Monats nach dessen Beendigung kann der Arbeitnehmer auf Forderungen, die sich aus unabdingbaren Vorschriften des Gesetzes oder aus unabdingbaren Bestimmungen eines Gesamtarbeitsvertrages ergeben, nicht verzichten."
+290;;341;;2;;;;;;Die allgemeinen Vorschriften über die Verjährung sind auf Forderungen aus dem Arbeitsverhältnis anwendbar.
+291;;342;;1;;;;;;Vorbehalten bleiben:
+292;;342;;1;;a;;;;"Vorschriften des Bundes, der Kantone und Gemeinden über das öffentlich-rechtliche Dienstverhältnis, soweit sie nicht die Artikel 331 Absatz 5 und 331a–331e betreffen;"
+293;;342;;1;;b;;;;öffentlich-rechtliche Vorschriften des Bundes und der Kantone über die Arbeit und die Berufsbildung.
+294;;342;;2;;;;;;"Wird durch Vorschriften des Bundes oder der Kantone über die Arbeit und die Berufsbildung dem Arbeitgeber oder dem Arbeitnehmer eine öffentlich-rechtliche Verpflichtung auferlegt, so steht der andern Vertragspartei ein zivilrechtlicher Anspruch auf Erfüllung zu, wenn die Verpflichtung Inhalt des Einzelarbeitsvertrages sein könnte."
+295;;344;;;;;;;;"Durch den Lehrvertrag verpflichten sich der Arbeitgeber, die lernende Person für eine bestimmte Berufstätigkeit fachgemäss zu bilden, und die lernende Person, zu diesem Zweck Arbeit im Dienst des Arbeitgebers zu leisten."
+296;;344a;;1;;;;;;Der Lehrvertrag bedarf zu seiner Gültigkeit der schriftlichen Form.
+297;;344a;;2;;;;;;"Der Vertrag hat die Art und die Dauer der beruflichen Bildung, den Lohn, die Probezeit, die Arbeitszeit und die Ferien zu regeln."
+298;;344a;;3;;;;;;"Die Probezeit darf nicht weniger als einen Monat und nicht mehr als drei Monate betragen. Haben die Vertragsparteien im Lehrvertrag keine Probezeit festgelegt, so gilt eine Probezeit von drei Monaten."
+299;;344a;;4;;;;;;Die Probezeit kann vor ihrem Ablauf durch Abrede der Parteien und unter Zustimmung der kantonalen Behörde ausnahmsweise bis auf sechs Monate verlängert werden.
+300;;344a;;5;;;;;;"Der Vertrag kann weitere Bestimmungen enthalten, wie namentlich über die Beschaffung von Berufswerkzeugen, Beiträge an Unterkunft und Verpflegung, Übernahme von Versicherungsprämien oder andere Leistungen der Vertragsparteien."
+301;;344a;;6;;;;;;" Abreden, die die lernende Person im freien Entschluss über die berufliche Tätigkeit nach beendigter Lehre beeinträchtigen, sind nichtig."
+302;;345;;1;;;;;;"Die lernende Person hat alles zu tun, um das Lehrziel zu erreichen."
+303;;345;;2;;;;;;Die gesetzliche Vertretung der lernenden Person hat den Arbeitgeber in der Erfüllung seiner Aufgabe nach Kräften zu unterstützen und das gute Einvernehmen zwischen dem Arbeitgeber und der lernenden Person zu fördern.
+304;;345a;;1;;;;;;"Der Arbeitgeber hat dafür zu sorgen, dass die Berufslehre unter der Verantwortung einer Fachkraft steht, welche die dafür nötigen beruflichen Fähigkeiten und persönlichen Eigenschaften besitzt."
+305;;345a;;2;;;;;;"Er hat der lernenden Person ohne Lohnabzug die Zeit freizugeben, die für den Besuch der Berufsfachschule und der überbetrieblichen Kurse und für die Teilnahme an den Lehrabschlussprüfungen erforderlich ist."
+306;;345a;;3;;;;;;Er hat der lernenden Person bis zum vollendeten 20. Altersjahr für jedes Lehrjahr wenigstens fünf Wochen Ferien zu gewähren.
+307;;345a;;4;;;;;;"Er darf die lernende Person zu anderen als beruflichen Arbeiten und zu Akkordlohnarbeiten nur so weit einsetzen, als solche Arbeiten mit dem zu erlernenden Beruf in Zusammenhang stehen und die Bildung nicht beeinträchtigt wird."
+308;;346;;1;;;;;;Das Lehrverhältnis kann während der Probezeit jederzeit mit einer Kündigungsfrist von sieben Tagen gekündigt werden.
+309;;346;;2;;;;;;"Aus wichtigen Gründen im Sinne von Artikel 337 kann das Lehrverhältnis namentlich fristlos aufgelöst werden, wenn:"
+310;;346;;2;;a;;;;der für die Bildung verantwortlichen Fachkraft die erforderlichen beruflichen Fähigkeiten oder persönlichen Eigenschaften zur Bildung der lernenden Person fehlen;
+311;;346;;2;;b;;;;die lernende Person nicht über die für die Bildung unentbehrlichen körperlichen oder geistigen Anlagen verfügt oder gesundheitlich oder sittlich gefährdet ist; die lernende Person und gegebenenfalls deren gesetzliche Vertretung sind vorgängig anzuhören;
+312;;346;;2;;c;;;;die Bildung nicht oder nur unter wesentlich veränderten Verhältnissen zu Ende geführt werden kann.
+313;;346a;;1;;;;;;"Nach Beendigung der Berufslehre hat der Arbeitgeber der lernenden Person ein Zeugnis auszustellen, das die erforderlichen Angaben über die erlernte Berufstätigkeit und die Dauer der Berufslehre enthält."
+314;;346a;;2;;;;;;"Auf Verlangen der lernenden Person oder deren gesetzlichen Vertretung hat sich das Zeugnis auch über die Fähigkeiten, die Leistungen und das Verhalten der lernenden Person auszusprechen."
+315;;347;;1;;;;;;"Durch den Handelsreisendenvertrag verpflichtet sich der Handelsreisende, auf Rechnung des Inhabers eines Handels-, Fabrikations- oder andern nach kaufmännischer Art geführten Geschäftes gegen Lohn Geschäfte jeder Art ausserhalb der Geschäftsräume des Arbeitgebers zu vermitteln oder abzuschliessen."
+316;;347;;2;;;;;;"Nicht als Handelsreisender gilt der Arbeitnehmer, der nicht vorwiegend eine Reisetätigkeit ausübt oder nur gelegentlich oder vorübergehend für den Arbeitgeber tätig ist, sowie der Reisende, der Geschäfte auf eigene Rechnung abschliesst."
+317;;347a;;1;;;;;;"Das Arbeitsverhältnis ist durch schriftlichen Vertrag zu regeln, der namentlich Bestimmungen enthalten soll über:"
+318;;347a;;1;;a;;;;"die Dauer und Beendigung des Arbeitsverhältnisses,"
+319;;347a;;1;;b;;;;"die Vollmachten des Handelsreisenden,"
+320;;347a;;1;;c;;;;"das Entgelt und den Auslagenersatz,"
+321;;347a;;1;;d;;;;"das anwendbare Recht und den Gerichtsstand, sofern eine Vertragspartei ihren Wohnsitz im Ausland hat."
+322;;347a;;2;;;;;;"Soweit das Arbeitsverhältnis nicht durch schriftlichen Vertrag geregelt ist, wird der im vorstehenden Absatz umschriebene Inhalt durch die gesetzlichen Vorschriften und durch die üblichen Arbeitsbedingungen bestimmt."
+323;;347a;;3;;;;;;"Die mündliche Abrede gilt nur für die Festsetzung des Beginns der Arbeitsleistung, der Art und des Gebietes der Reisetätigkeit sowie für weitere Bestimmungen, die mit den gesetzlichen Vorschriften und dem schriftlichen Vertrag nicht in Widerspruch stehen."
+324;;348;;1;;;;;;"Der Handelsreisende hat die Kundschaft in der ihm vorgeschriebenen Weise zu besuchen, sofern nicht ein begründeter Anlass eine Änderung notwendig macht; ohne schriftliche Bewilligung des Arbeitgebers darf er weder für eigene Rechnung noch für Rechnung eines Dritten Geschäfte vermitteln oder abschliessen."
+325;;348;;2;;;;;;"Ist der Handelsreisende zum Abschluss von Geschäften ermächtigt, so hat er die ihm vorgeschriebenen Preise und andern Geschäftsbedingungen einzuhalten und muss für Änderungen die Zustimmung des Arbeitgebers vorbehalten."
+326;;348;;3;;;;;;"Der Handelsreisende hat über seine Reisetätigkeit regelmässig Bericht zu erstatten, die erhaltenen Bestellungen dem Arbeitgeber sofort zu übermitteln und ihn von erheblichen Tatsachen, die seinen Kundenkreis betreffen, in Kenntnis zu setzen."
+327;;348a;;1;;;;;;"Abreden, dass der Handelsreisende für die Zahlung oder anderweitige Erfüllung der Verbindlichkeiten der Kunden einzustehen oder die Kosten der Einbringung von Forderungen ganz oder teilweise zu tragen hat, sind nichtig."
+328;;348a;;2;;;;;;"Hat der Handelsreisende Geschäfte mit Privatkunden abzuschliessen, so kann er sich schriftlich verpflichten, beim einzelnen Geschäft für höchstens einen Viertel des Schadens zu haften, der dem Arbeitgeber durch die Nichterfüllung der Verbindlichkeiten der Kunden erwächst, vorausgesetzt dass eine angemessene Delcredere-Provision verabredet wird."
+329;;348a;;3;;;;;;"Bei Versicherungsverträgen kann sich der reisende Versicherungsvermittler schriftlich verpflichten, höchstens die Hälfte der Kosten der Einbringung von Forderungen zu tragen, wenn eine Prämie oder deren Teile nicht bezahlt werden und er deren Einbringung im Wege der Klage oder Zwangsvollstreckung verlangt."
+330;;348b;;1;;;;;;"Ist nichts anderes schriftlich verabredet, so ist der Handelsreisende nur ermächtigt, Geschäfte zu vermitteln."
+331;;348b;;2;;;;;;"Ist der Handelsreisende zum Abschluss von Geschäften ermächtigt, so erstreckt sich seine Vollmacht auf alle Rechtshandlungen, welche die Ausführung dieser Geschäfte gewöhnlich mit sich bringt; jedoch darf er ohne besondere Ermächtigung Zahlungen von Kunden nicht entgegennehmen und keine Zahlungsfristen bewilligen."
+332;;348b;;3;;;;;;Artikel 34 des Bundesgesetzes vom 2. April 1908 über den Versicherungsvertrag bleibt vorbehalten.
+333;;349;;1;;;;;;"Ist dem Handelsreisenden ein bestimmtes Reisegebiet oder ein bestimmter Kundenkreis zugewiesen und nichts anderes schriftlich verabredet, so gilt er als mit Ausschluss anderer Personen bestellt; jedoch bleibt der Arbeitgeber befugt, mit den Kunden im Gebiet oder Kundenkreis des Handelsreisenden persönlich Geschäfte abzuschliessen."
+334;;349;;2;;;;;;"Der Arbeitgeber kann die vertragliche Bestimmung des Reisegebietes oder Kundenkreises einseitig abändern, wenn ein begründeter Anlass eine Änderung vor Ablauf der Kündigungsfrist notwendig macht; jedoch bleiben diesfalls Entschädigungsansprüche und das Recht des Handelsreisenden zur Auflösung des Arbeitsverhältnisses aus wichtigem Grund vorbehalten."
+335;;349a;;1;;;;;;"Der Arbeitgeber hat dem Handelsreisenden Lohn zu entrichten, der aus einem festen Gehalt mit oder ohne Provision besteht."
+336;;349a;;2;;;;;;"Eine schriftliche Abrede, dass der Lohn ausschliesslich oder vorwiegend in einer Provision bestehen soll, ist gültig, wenn die Provision ein angemessenes Entgelt für die Tätigkeit des Handelsreisenden ergibt."
+337;;349a;;3;;;;;;Für eine Probezeit von höchstens zwei Monaten kann durch schriftliche Abrede der Lohn frei bestimmt werden.
+338;;349b;;1;;;;;;"Ist dem Handelsreisenden ein bestimmtes Reisegebiet oder ein bestimmter Kundenkreis ausschliesslich zugewiesen, so ist ihm die verabredete oder übliche Provision auf allen Geschäften auszurichten, die von ihm oder seinem Arbeitgeber mit Kunden in seinem Gebiet oder Kundenkreis abgeschlossen werden."
+339;;349b;;2;;;;;;"Ist dem Handelsreisenden ein bestimmtes Reisegebiet oder ein bestimmter Kundenkreis nicht ausschliesslich zugewiesen, so ist ihm die Provision nur auf den von ihm vermittelten oder abgeschlossenen Geschäften auszurichten."
+340;;349b;;3;;;;;;"Ist im Zeitpunkt der Fälligkeit der Provision der Wert eines Geschäftes noch nicht genau bestimmbar, so ist die Provision zunächst auf dem vom Arbeitgeber geschätzten Mindestwert und der Rest spätestens bei Ausführung des Geschäftes auszurichten."
+341;;349c;;1;;;;;;"Ist der Handelsreisende ohne sein Verschulden an der Ausübung der Reisetätigkeit verhindert und ist ihm auf Grund des Gesetzes oder des Vertrages der Lohn gleichwohl zu entrichten, so bestimmt sich dieser nach dem festen Gehalt und einer angemessenen Entschädigung für den Ausfall der Provision."
+342;;349c;;2;;;;;;"Beträgt die Provision weniger als einen Fünftel des Lohnes, so kann schriftlich verabredet werden, dass bei unverschuldeter Verhinderung des Handelsreisenden an der Ausübung der Reisetätigkeit eine Entschädigung für die ausfallende Provision nicht zu entrichten ist."
+343;;349c;;3;;;;;;"Erhält der Handelsreisende bei unverschuldeter Verhinderung an der Reisetätigkeit gleichwohl den vollen Lohn, so hat er auf Verlangen des Arbeitgebers Arbeit in dessen Betrieb zu leisten, sofern er sie zu leisten vermag und sie ihm zugemutet werden kann."
+344;;349d;;1;;;;;;"Ist der Handelsreisende für mehrere Arbeitgeber gleichzeitig tätig und ist die Verteilung des Auslagenersatzes nicht durch schriftliche Abrede geregelt, so hat jeder Arbeitgeber einen gleichen Kostenanteil zu vergüten."
+345;;349d;;2;;;;;;"Abreden, dass der Auslagenersatz ganz oder teilweise im festen Gehalt oder in der Provision eingeschlossen sein soll, sind nichtig."
+346;;349e;;1;;;;;;"Zur Sicherung der fälligen Forderungen aus dem Arbeitsverhältnis, bei Zahlungsunfähigkeit des Arbeitgebers auch der nicht fälligen Forderungen, steht dem Handelsreisenden das Retentionsrecht an beweglichen Sachen und Wertpapieren sowie an Zahlungen von Kunden zu, die er auf Grund einer Inkassovollmacht entgegengenommen hat."
+347;;349e;;2;;;;;;"An Fahrausweisen, Preistarifen, Kundenverzeichnissen und andern Unterlagen kann das Retentionsrecht nicht ausgeübt werden."
+348;;350;;1;;;;;;"Beträgt die Provision mindestens einen Fünftel des Lohnes und unterliegt sie erheblichen saisonmässigen Schwankungen, so darf der Arbeitgeber dem Handelsreisenden, der seit Abschluss der letzten Saison bei ihm gearbeitet hat, während der Saison nur auf das Ende des zweiten der Kündigung folgenden Monats kündigen."
+349;;350;;2;;;;;;" Unter den gleichen Voraussetzungen darf der Handelsreisende dem Arbeitgeber, der ihn bis zum Abschluss der Saison beschäftigt hat, bis zum Beginn der nächsten nur auf das Ende des zweiten der Kündigung folgenden Monats kündigen."
+350;;350a;;1;;;;;;"Bei Beendigung des Arbeitsverhältnisses ist dem Handelsreisenden die Provision auf allen Geschäften auszurichten, die er abgeschlossen oder vermittelt hat, sowie auf allen Bestellungen, die bis zur Beendigung dem Arbeitgeber zugehen, ohne Rücksicht auf den Zeitpunkt ihrer Annahme und ihrer Ausführung."
+351;;350a;;2;;;;;;"Auf den Zeitpunkt der Beendigung des Arbeitsverhältnisses hat der Handelsreisende die ihm für die Reisetätigkeit zur Verfügung gestellten Muster und Modelle, Preistarife, Kundenverzeichnisse und andern Unterlagen zurückzugeben; das Retentionsrecht bleibt vorbehalten."
+352;;351;;;;;;;;"Durch den Heimarbeitsvertrag verpflichtet sich der Heimarbeitnehmer, in seiner Wohnung oder in einem andern, von ihm bestimmten Arbeitsraum allein oder mit Familienangehörigen Arbeiten im Lohn für den Arbeitgeber auszuführen."
+353;;351a;;1;;;;;;"Vor jeder Ausgabe von Arbeit hat der Arbeitgeber dem Heimarbeitnehmer die für deren Ausführung erheblichen Bedingungen bekanntzugeben, namentlich die Einzelheiten der Arbeit, soweit sie nicht durch allgemein geltende Arbeitsbedingungen geregelt sind; er hat das vom Heimarbeitnehmer zu beschaffende Material und schriftlich die dafür zu leistende Entschädigung sowie den Lohn anzugeben."
+354;;351a;;2;;;;;;"Werden die Angaben über den Lohn und über die Entschädigung für das vom Heimarbeitnehmer zu beschaffende Material nicht vor der Ausgabe der Arbeit schriftlich bekannt gegeben, so gelten dafür die üblichen Arbeitsbedingungen."
+355;;352;;1;;;;;;"Der Heimarbeitnehmer hat mit der übernommenen Arbeit rechtzeitig zu beginnen, sie bis zum verabredeten Termin fertigzustellen und das Arbeitserzeugnis dem Arbeitgeber zu übergeben."
+356;;352;;2;;;;;;"Wird aus Verschulden des Heimarbeitnehmers die Arbeit mangelhaft ausgeführt, so ist er zur unentgeltlichen Verbesserung des Arbeitserzeugnisses verpflichtet, soweit dadurch dessen Mängel behoben werden können."
+357;;352a;;1;;;;;;"Der Heimarbeitnehmer ist verpflichtet, Material und Geräte, die ihm vom Arbeitgeber übergeben werden, mit aller Sorgfalt zu behandeln, über deren Verwendung Rechenschaft abzulegen und den zur Arbeit nicht verwendeten Rest des Materials sowie die erhaltenen Geräte zurückzugeben."
+358;;352a;;2;;;;;;"Stellt der Heimarbeitnehmer bei der Ausführung der Arbeit Mängel an dem übergebenen Material oder an den erhaltenen Geräten fest, so hat er den Arbeitgeber sofort zu benachrichtigen und dessen Weisungen abzuwarten, bevor er die Ausführung der Arbeit fortsetzt."
+359;;352a;;3;;;;;;"Hat der Heimarbeitnehmer Material oder Geräte, die ihm übergeben wurden, schuldhaft verdorben, so haftet er dem Arbeitgeber höchstens für den Ersatz der Selbstkosten."
+360;;353;;1;;;;;;Der Arbeitgeber hat das Arbeitserzeugnis nach Ablieferung zu prüfen und Mängel spätestens innert einer Woche dem Heimarbeitnehmer bekanntzugeben.
+361;;353;;2;;;;;;"Unterlässt der Arbeitgeber die rechtzeitige Bekanntgabe der Mängel, so gilt die Arbeit als abgenommen."
+362;;353a;;1;;;;;;"Steht der Heimarbeitnehmer ununterbrochen im Dienst des Arbeitgebers, so ist der Lohn für die geleistete Arbeit halbmonatlich oder mit Zustimmung des Heimarbeitnehmers am Ende jedes Monats, in den anderen Fällen jeweils bei Ablieferung des Arbeitserzeugnisses auszurichten."
+363;;353a;;2;;;;;;"Bei jeder Lohnzahlung ist dem Heimarbeitnehmer eine schriftliche Abrechnung zu übergeben, in der für Lohnabzüge der Grund anzugeben ist."
+364;;353b;;1;;;;;;"Steht der Heimarbeitnehmer ununterbrochen im Dienst des Arbeitgebers, so ist dieser nach Massgabe der Artikel 324 und 324a zur Ausrichtung des Lohnes verpflichtet, wenn er mit der Annahme der Arbeitsleistung in Verzug kommt oder wenn der Heimarbeitnehmer aus Gründen, die in seiner Person liegen, ohne sein Verschulden an der Arbeitsleistung verhindert ist."
+365;;353b;;2;;;;;;In den anderen Fällen ist der Arbeitgeber zur Ausrichtung des Lohnes nach Massgabe der Artikel 324 und 324a nicht verpflichtet.
+366;;354;;1;;;;;;"Wird dem Heimarbeitnehmer eine Probearbeit übergeben, so gilt das Arbeitsverhältnis zur Probe auf bestimmte Zeit eingegangen, sofern nichts anderes verabredet ist."
+367;;354;;2;;;;;;"Steht der Heimarbeitnehmer ununterbrochen im Dienst des Arbeitgebers, so gilt das Arbeitsverhältnis als auf unbestimmte Zeit, in den anderen Fällen als auf bestimmte Zeit eingegangen, sofern nichts anderes verabredet ist."
+368;;355;;;;;;;;"Auf den Lehrvertrag, den Handelsreisendenvertrag und den Heimarbeitsvertrag sind die allgemeinen Vorschriften über den Einzelarbeitsvertrag ergänzend anwendbar."
+369;;356;;1;;;;;;"Durch den Gesamtarbeitsvertrag stellen Arbeitgeber oder deren Verbände und Arbeitnehmerverbände gemeinsam Bestimmungen über Abschluss, Inhalt und Beendigung der einzelnen Arbeitsverhältnisse der beteiligten Arbeitgeber und Arbeitnehmer auf."
+370;;356;;2;;;;;;"Der Gesamtarbeitsvertrag kann auch andere Bestimmungen enthalten, soweit sie das Verhältnis zwischen Arbeitgebern und Arbeitnehmern betreffen, oder sich auf die Aufstellung solcher Bestimmungen beschränken."
+371;;356;;3;;;;;;Der Gesamtarbeitsvertrag kann ferner die Rechte und Pflichten der Vertragsparteien unter sich sowie die Kontrolle und Durchsetzung der in den vorstehenden Absätzen genannten Bestimmungen regeln.
+372;;356;;4;;;;;;"Sind an einem Gesamtarbeitsvertrag auf Arbeitgeber- oder Arbeitnehmerseite von Anfang an oder auf Grund des nachträglichen Beitritts eines Verbandes mit Zustimmung der Vertragsparteien mehrere Verbände beteiligt, so stehen diese im Verhältnis gleicher Rechte und Pflichten zueinander; abweichende Vereinbarungen sind nichtig."
+373;;356a;;1;;;;;;"Bestimmungen eines Gesamtarbeitsvertrages und Abreden zwischen den Vertragsparteien, durch die Arbeitgeber oder Arbeitnehmer zum Eintritt in einen vertragschliessenden Verband gezwungen werden sollen, sind nichtig."
+374;;356a;;2;;;;;;"Bestimmungen eines Gesamtarbeitsvertrages und Abreden zwischen den Vertragsparteien, durch die Arbeitnehmer von einem bestimmten Beruf oder einer bestimmten Tätigkeit oder von einer hiefür erforderlichen Ausbildung ausgeschlossen oder darin beschränkt werden, sind nichtig."
+375;;356a;;3;;;;;;"Bestimmungen und Abreden im Sinne des vorstehenden Absatzes sind ausnahmsweise gültig, wenn sie durch überwiegende schutzwürdige Interessen, namentlich zum Schutz der Sicherheit und Gesundheit von Personen oder der Qualität der Arbeit gerechtfertigt sind; jedoch gilt nicht als schutzwürdig das Interesse, neue Berufsangehörige fernzuhalten."
+376;;356b;;1;;;;;;Einzelne Arbeitgeber und einzelne im Dienst beteiligter Arbeitgeber stehende Arbeitnehmer können sich mit Zustimmung der Vertragsparteien dem Gesamtarbeitsvertrag anschliessen und gelten als beteiligte Arbeitgeber und Arbeitnehmer.
+377;;356b;;2;;;;;;"Der Gesamtarbeitsvertrag kann den Anschluss näher regeln. Unangemessene Bedingungen des Anschlusses, insbesondere Bestimmungen über unangemessene Beiträge, können vom Richter nichtig erklärt oder auf das zulässige Mass beschränkt werden; jedoch sind Bestimmungen oder Abreden über Beiträge zugunsten einer einzelnen Vertragspartei nichtig."
+378;;356b;;3;;;;;;"Bestimmungen eines Gesamtarbeitsvertrages und Abreden zwischen den Vertragsparteien, durch die Mitglieder von Verbänden zum Anschluss gezwungen werden sollen, sind nichtig, wenn diesen Verbänden die Beteiligung am Gesamtarbeitsvertrag oder der Abschluss eines sinngemäss gleichen Vertrages nicht offensteht."
+379;;356c;;1;;;;;;"Der Abschluss des Gesamtarbeitsvertrages, dessen Änderung und Aufhebung durch gegenseitige Übereinkunft, der Beitritt einer neuen Vertragspartei sowie die Kündigung bedürfen zu ihrer Gültigkeit der schriftlichen Form, ebenso die Anschlusserklärung einzelner Arbeitgeber und Arbeitnehmer und die Zustimmung der Vertragsparteien gemäss Artikel 356b Absatz 1 sowie die Kündigung des Anschlusses."
+380;;356c;;2;;;;;;"Ist der Gesamtarbeitsvertrag nicht auf bestimmte Zeit abgeschlossen und sieht er nichts anderes vor, so kann er von jeder Vertragspartei mit Wirkung für alle anderen Parteien nach Ablauf eines Jahres jederzeit auf sechs Monate gekündigt werden. Diese Bestimmung gilt sinngemäss auch für den Anschluss."
+381;;357;;1;;;;;;"Die Bestimmungen des Gesamtarbeitsvertrages über Abschluss, Inhalt und Beendigung der einzelnen Arbeitsverhältnisse gelten während der Dauer des Vertrages unmittelbar für die beteiligten Arbeitgeber und Arbeitnehmer und können nicht wegbedungen werden, sofern der Gesamtarbeitsvertrag nichts anderes bestimmt."
+382;;357;;2;;;;;;"Abreden zwischen beteiligten Arbeitgebern und Arbeitnehmern, die gegen die unabdingbaren Bestimmungen verstossen, sind nichtig und werden durch die Bestimmungen des Gesamtarbeitsvertrages ersetzt; jedoch können abweichende Abreden zugunsten der Arbeitnehmer getroffen werden."
+383;;357a;;1;;;;;;"Die Vertragsparteien sind verpflichtet, für die Einhaltung des Gesamtarbeitsvertrages zu sorgen; zu diesem Zweck haben Verbände auf ihre Mitglieder einzuwirken und nötigenfalls die statutarischen und gesetzlichen Mittel einzusetzen."
+384;;357a;;2;;;;;;"Jede Vertragspartei ist verpflichtet, den Arbeitsfrieden zu wahren und sich insbesondere jeder Kampfmassnahme zu enthalten, soweit es sich um Gegenstände handelt, die im Gesamtarbeitsvertrag geregelt sind; die Friedenspflicht gilt nur unbeschränkt, wenn dies ausdrücklich bestimmt ist."
+385;;357b;;1;;;;;;"In einem zwischen Verbänden abgeschlossenen Gesamtarbeitsvertrag können die Vertragsparteien vereinbaren, dass ihnen gemeinsam ein Anspruch auf Einhaltung des Vertrages gegenüber den beteiligten Arbeitgebern und Arbeitnehmern zusteht, soweit es sich um folgende Gegenstände handelt:"
+386;;357b;;1;;a;;;;"Abschluss, Inhalt und Beendigung des Arbeitsverhältnisses, wobei der Anspruch nur auf Feststellung geht;"
+387;;357b;;1;;b;;;;"Beiträge an Ausgleichskassen und andere das Arbeitsverhältnis betreffende Einrichtungen, Vertretung der Arbeitnehmer in den Betrieben und Wahrung des Arbeitsfriedens;"
+388;;357b;;1;;c;;;;"Kontrolle, Kautionen und Konventionalstrafen in Bezug auf Bestimmungen gemäss Buchstaben a und b."
+389;;357b;;2;;;;;;"Vereinbarungen im Sinne des vorstehenden Absatzes können getroffen werden, wenn die Vertragsparteien durch die Statuten oder einen Beschluss des obersten Verbandsorgans ausdrücklich hiezu ermächtigt sind."
+390;;357b;;3;;;;;;"Auf das Verhältnis der Vertragsparteien unter sich sind die Vorschriften über die einfache Gesellschaft sinngemäss anwendbar, wenn der Gesamtarbeitsvertrag nichts anderes bestimmt."
+391;;358;;1;;;;;;"Durch den Normalarbeitsvertrag werden für einzelne Arten von Arbeitsverhältnissen Bestimmungen über deren Abschluss, Inhalt und Beendigung aufgestellt."
+392;;358;;2;;;;;;"Für das Arbeitsverhältnis der landwirtschaftlichen Arbeitnehmer und der Arbeitnehmer im Hausdienst haben die Kantone Normalarbeitsverträge zu erlassen, die namentlich die Arbeits- und Ruhezeit ordnen und die Arbeitsbedingungen der weiblichen und jugendlichen Arbeitnehmer regeln."
+393;;358;;3;;;;;;Artikel 358 ist auf den Normalarbeitsvertrag sinngemäss anwendbar.
+394;;359a;;1;;;;;;"Erstreckt sich der Geltungsbereich des Normalarbeitsvertrages auf das Gebiet mehrerer Kantone, so ist für den Erlass der Bundesrat, andernfalls der Kanton zuständig."
+395;;359a;;2;;;;;;"Vor dem Erlass ist der Normalarbeitsvertrag angemessen zu veröffentlichen und eine Frist anzusetzen, innert deren jedermann, der ein Interesse glaubhaft macht, schriftlich dazu Stellung nehmen kann; ausserdem sind Berufsverbände oder gemeinnützige Vereinigungen, die ein Interesse haben, anzuhören."
+396;;359a;;3;;;;;;"Der Normalarbeitsvertrag tritt in Kraft, wenn er nach den für die amtlichen Veröffentlichungen geltenden Vorschriften bekanntgemacht worden ist."
+397;;359a;;4;;;;;;Für die Aufhebung und Abänderung eines Normalarbeitsvertrages gilt das gleiche Verfahren.
+398;;360;;1;;;;;;"Die Bestimmungen des Normalarbeitsvertrages gelten unmittelbar für die ihm unterstellten Arbeitsverhältnisse, soweit nichts anderes verabredet wird."
+399;;360;;2;;;;;;"Der Normalarbeitsvertrag kann vorsehen, dass Abreden, die von einzelnen seiner Bestimmungen abweichen, zu ihrer Gültigkeit der schriftlichen Form bedürfen."
+400;;360a;;1;;;;;;"Werden innerhalb einer Branche oder einem Beruf die orts?, berufs- oder branchenüblichen Löhne wiederholt in missbräuchlicher Weise unterboten und liegt kein Gesamtarbeitsvertrag mit Bestimmungen über Mindestlöhne vor, der allgemein verbindlich erklärt werden kann, so kann die zuständige Behörde zur Bekämpfung oder Verhinderung von Missbräuchen auf Antrag der tripartiten Kommission nach Artikel 360b einen befristeten Normalarbeitsvertrag erlassen, der nach Regionen und gegebenenfalls Orten differenzierte Mindestlöhne vorsieht."
+401;;360a;;2;;;;;;Die Mindestlöhne dürfen weder dem Gesamtinteresse zuwiderlaufen noch die berechtigten Interessen anderer Branchen oder Bevölkerungskreise beeinträchtigen. Sie müssen den auf regionalen oder betrieblichen Verschiedenheiten beruhenden Minderheitsinteressen der betroffenen Branchen oder Berufe angemessen Rechnung tragen.
+402;;360a;;3;;;;;;"Wird wiederholt gegen die Bestimmungen über den Mindestlohn in einem Normalarbeitsvertrag nach Absatz 1 verstossen oder liegen Hinweise vor, dass der Wegfall des Normalarbeitsvertrages zu erneuten Missbräuchen nach Absatz 1 führen kann, so kann die zuständige Behörde den Normalarbeitsvertrag auf Antrag der tripartiten Kommission befristet verlängern."
+403;;360b;;1;;;;;;"Der Bund und jeder Kanton setzen eine tripartite Kommission ein, die sich aus einer gleichen Zahl von Arbeitgeber- und Arbeitnehmervertretern sowie Vertretern des Staates zusammensetzt."
+404;;360b;;2;;;;;;Bezüglich der Wahl ihrer Vertreter nach Absatz 1 steht den Arbeitgeber- und Arbeitnehmerverbänden ein Vorschlagsrecht zu.
+405;;360b;;3;;;;;;"Die Kommissionen beobachten den Arbeitsmarkt. Stellen sie Missbräuche im Sinne von Artikel 360a Absatz 1 fest, so suchen sie in der Regel eine direkte Verständigung mit den betroffenen Arbeitgebern. Gelingt dies innert zwei Monaten nicht, so beantragen sie der zuständigen Behörde den Erlass eines Normalarbeitsvertrages, der für die betroffenen Branchen oder Berufe Mindestlöhne vorsieht."
+406;;360b;;4;;;;;;"Ändert sich die Arbeitsmarktsituation in den betroffenen Branchen, so beantragt die tripartite Kommission der zuständigen Behörde die Änderung oder die Aufhebung des Normalarbeitsvertrags."
+407;;360b;;5;;;;;;"Um die ihnen übertragenen Aufgaben wahrzunehmen, haben die tripartiten Kommissionen in den Betrieben das Recht auf Auskunft und Einsichtnahme in alle Dokumente, die für die Durchführung der Untersuchung notwendig sind. Im Streitfall entscheidet eine hierfür vom Bund beziehungsweise vom Kanton bezeichnete Behörde."
+408;;360b;;6;;;;;;"Die tripartiten Kommissionen können beim Bundesamt für Statistik auf Gesuch die für ihre Abklärungen notwendigen Personendaten beziehen, die in Firmen-Gesamtarbeitsverträgen enthalten sind."
+409;;360c;;1;;;;;;"Die Mitglieder der tripartiten Kommissionen unterstehen dem Amtsgeheimnis; sie sind insbesondere über betriebliche und private Angelegenheiten, die ihnen in dieser Eigenschaft zur Kenntnis gelangen, zur Verschwiegenheit gegenüber Drittpersonen verpflichtet."
+410;;360c;;2;;;;;;Die Pflicht zur Verschwiegenheit bleibt auch nach dem Ausscheiden aus der tripartiten Kommission bestehen.
+411;;360d;;1;;;;;;"Der Normalarbeitsvertrag nach Artikel 360a gilt auch für Arbeitnehmer, die nur vorübergehend in seinem örtlichen Geltungsbereich tätig sind, sowie für verliehene Arbeitnehmer."
+412;;360d;;2;;;;;;Durch Abrede darf vom Normalarbeitsvertrag nach Artikel 360a nicht zu Ungunsten des Arbeitnehmers abgewichen werden.
+413;;360e;;;;;;;;"Den Arbeitgeber- und den Arbeitnehmerverbänden steht ein Anspruch auf gerichtliche Feststellung zu, ob ein Arbeitgeber den Normalarbeitsvertrag nach Artikel 360a einhält."
+414;;360f;;;;;;;;"Erlässt ein Kanton in Anwendung von Artikel 360a einen Normalarbeitsvertrag, so stellt er dem zuständigen Bundesamt ein Exemplar zu."
+415;;361;;1;;;;;;"Durch Abrede, Normalarbeitsvertrag oder Gesamtarbeitsvertrag darf von den folgenden Vorschriften weder zuungunsten des Arbeitgebers noch des Arbeitnehmers abgewichen werden:
+
+Artikel 321c: Absatz 1 (Überstundenarbeit)
+
+Artikel 323: Absatz 4 (Vorschuss)
+
+Artikel 323b: Absatz 2 (Verrechnung mit Gegenforderungen)
+
+Artikel 325: Absatz 2 (Abtretung und Verpfändung von Lohnforderungen)
+
+Artikel 326: Absatz 2 (Zuweisung von Arbeit)
+
+Artikel 329d: Absätze 2 und 3 (Ferienlohn)
+
+Artikel 331: Absätze 1 und 2 (Zuwendungen für die Personalfürsorge)
+
+Artikel 331b: (Abtretung und Verpfändung von Forderungen auf Vorsorgeleistungen)
+
+Artikel 334: Absatz 3 (Kündigung beim langjährigen Arbeitsverhältnis)
+
+Artikel 335: (Kündigung des Arbeitsverhältnisses)
+
+Artikel 335k: (Sozialplan während eines Konkurs- oder eines Nachlassverfahrens)
+
+Artikel 336: Absatz 1 (Missbräuchliche Kündigung)
+
+Artikel 336a: (Entschädigung bei missbräuchlicher Kündigung)
+
+Artikel 336b: (Geltendmachung der Entschädigung)
+
+Artikel 336d: (Kündigung zur Unzeit durch den Arbeitnehmer)
+
+Artikel 337: Absätze 1 und 2 (Fristlose Auflösung aus wichtigen Gründen)
+
+Artikel 337b: Absatz 1 (Folgen bei gerechtfertigter Auflösung)
+
+Artikel 337d: (Folgen bei ungerechtfertigtem Nichtantritt oder Verlassen der Arbeitsstelle)
+
+Artikel 339: Absatz 1 (Fälligkeit der Forderungen)
+
+Artikel 339a: (Rückgabepflichten)
+
+Artikel 340b: Absätze 1 und 2 (Folgen der Übertretung des Konkurrenzverbotes)
+
+Artikel 342: Absatz 2 (Zivilrechtliche Wirkungen des öffentlichen Rechts)
+
+Artikel 346: (Vorzeitige Auflösung des Lehrvertrages)
+
+Artikel 349c: Absatz 3 (Verhinderung an der Reisetätigkeit)
+
+Artikel 350: (Besondere Kündigung)
+
+Artikel 350a: Absatz 2 (Rückgabepflichten)."
+416;;361;;2;;;;;;"Abreden sowie Bestimmungen von Normalarbeitsverträgen und Gesamtarbeitsverträgen, die von den vorstehend angeführten Vorschriften zuungunsten des Arbeitgebers oder des Arbeitnehmers abweichen, sind nichtig."
+417;;362;;1;;;;;;"Durch Abrede, Normalarbeitsvertrag oder Gesamtarbeitsvertrag darf von den folgenden Vorschriften nicht zuungunsten der Arbeitnehmerin oder des Arbeitnehmers abgewichen werden:
+
+Artikel 321e: (Haftung des Arbeitnehmers)
+
+Artikel 322a: Absätze 2 und 3 (Anteil am Geschäftsergebnis)
+
+Artikel 322b: Absätze 1 und 2 (Entstehung des Provisionsanspruchs)
+
+Artikel 322c: (Provisionsabrechnung)
+
+Artikel 323b: Absatz 1 zweiter Satz (Lohnabrechnung)
+
+Artikel 324: (Lohn bei Annahmeverzug des Arbeitgebers)
+
+Artikel 324a: Absätze 1 und 3 (Lohn bei Verhinderung des Arbeitnehmers)
+
+Artikel 324b: (Lohn bei obligatorischer Versicherung des Arbeitnehmers)
+
+Artikel 326: Absätze 1, 3 und 4 (Akkordlohnarbeit)
+
+Artikel 326a: (Akkordlohn)
+
+Artikel 327a: Absatz 1 (Auslagenersatz im Allgemeinen)
+
+Artikel 327b: Absatz 1 (Auslagenersatz bei Motorfahrzeug)
+
+Artikel 327c: Absatz 2 (Vorschuss für Auslagen)
+
+Artikel 328: (Schutz der Persönlichkeit des Arbeitnehmers im Allgemeinen)
+
+Artikel 328a: (Schutz der Persönlichkeit bei Hausgemeinschaft)
+
+Artikel 328b: (Schutz der Persönlichkeit bei der Bearbeitung von Personendaten)
+
+Artikel 329: Absätze 1, 2 und 3 (Freizeit)
+
+Artikel 329a: Absätze 1 und 3 (Dauer der Ferien)
+
+Artikel 329b: Absätze 2 und 3 (Kürzung der Ferien)
+
+Artikel 329c: (Zusammenhang und Zeitpunkt der Ferien)
+
+Artikel 329d: Absatz 1 (Ferienlohn)
+
+Artikel 329e: Absätze 1 und 3 (Jugendurlaub)
+
+Artikel 329f: (Mutterschaftsurlaub)
+
+Artikel 329g: (Urlaub des andern Elternteils)
+
+Artikel 329gbis: (Urlaub im Falle des Todes der Mutter)
+
+Artikel 329h: (Urlaub für die Betreuung von Angehörigen)
+
+Artikel 329i: (Urlaub für die Betreuung eines wegen Krankheit oder Unfall gesundheitlich schwer beeinträchtigten Kindes)
+
+Artikel 329j: (Adoptionsurlaub)
+
+Artikel 330: Absätze 1, 3 und 4 (Kaution)
+
+Artikel 330a: (Zeugnis)
+
+Artikel 331: Absätze 3 und 4 (Beitragsleistung und Auskunftspflicht bei Personalfürsorge)
+
+Artikel 331a: (Beginn und Ende des Vorsorgeschutzes)
+
+Artikel 332: Absatz 4 (Vergütung bei Erfindungen)
+
+Artikel 333: Absatz 3 (Haftung bei Übergang des Arbeitsverhältnisses)
+
+Artikel 335c: Absatz 3 (Kündigungsfristen)
+
+Artikel 335i: (Verhandlungspflicht zwecks Abschlusses eines Sozialplans)
+
+Artikel 335j: (Aufstellung des Sozialplans durch ein Schiedsgericht)
+
+Artikel 336: Absatz 2 (Missbräuchliche Kündigung durch den Arbeitgeber)
+
+Artikel 336c: (Kündigung zur Unzeit durch den Arbeitgeber)
+
+Artikel 337a: (Fristlose Auflösung wegen Lohngefährdung)
+
+Artikel 337c: Absatz 1 (Folgen bei ungerechtfertigter Entlassung)
+
+Artikel 338: (Tod des Arbeitnehmers)
+
+Artikel 338a: (Tod des Arbeitgebers)
+
+Artikel 339b: (Voraussetzungen der Abgangsentschädigung)
+
+Artikel 339d: (Ersatzleistungen)
+
+Artikel 340: Absatz 1 (Voraussetzungen des Konkurrenzverbotes)
+
+Artikel 340a: Absatz 1 (Beschränkung des Konkurrenzverbotes)
+
+Artikel 340c: (Wegfall des Konkurrenzverbotes)
+
+Artikel 341: Absatz 1 (Unverzichtbarkeit)
+
+Artikel 345a: (Pflichten des Lehrmeisters247)
+
+Artikel 346a: (Lehrzeugnis)
+
+Artikel 349a: Absatz 1 (Lohn des Handelsreisenden)
+
+Artikel 349b: Absatz 3 (Ausrichtung der Provision)
+
+Artikel 349c: Absatz 1 (Lohn bei Verhinderung an der Reisetätigkeit)
+
+Artikel 349e: Absatz 1 (Retentionsrecht des Handelsreisenden)
+
+Artikel 350a: Absatz 1 (Provision bei Beendigung des Arbeitsverhältnisses)
+
+Artikel 352a: Absatz 3 (Haftung des Heimarbeitnehmers)
+
+Artikel 353: (Abnahme des Arbeitserzeugnisses)
+
+Artikel 353a: (Ausrichtung des Lohnes)
+
+Artikel 353b: Absatz 1 (Lohn bei Verhinderung an der Arbeitsleistung)."
+418;;362;;2;;;;;;"Abreden sowie Bestimmungen von Normalarbeitsverträgen und Gesamtarbeitsverträgen, die von den vorstehend angeführten Vorschriften zuungunsten des Arbeitnehmers abweichen, sind nichtig."
