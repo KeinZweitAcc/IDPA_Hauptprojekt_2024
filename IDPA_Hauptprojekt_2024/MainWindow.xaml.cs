@@ -9,6 +9,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using IDPA_Hauptprojekt_2024.Database.Logic;
+using IDPA_Hauptprojekt_2024.Database.Model;
 using IDPA_Hauptprojekt_2024.LocigClass;
 
 namespace IDPA_Hauptprojekt_2024
@@ -28,7 +29,8 @@ namespace IDPA_Hauptprojekt_2024
 
         private void SendButton_Click(object sender, RoutedEventArgs e)
         {
-             var ListFiltredArticles = _filterAlgorithm.Filter(InputTextBox.Text); 
+            var ListFiltredArticles = _filterAlgorithm.Filter(InputTextBox.Text);
+
         }
     }
 }
