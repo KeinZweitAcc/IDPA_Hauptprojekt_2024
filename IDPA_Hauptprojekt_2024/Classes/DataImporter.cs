@@ -13,7 +13,7 @@ public class DataImporter
 
     public void ImportData()
     {
-        const string articleKeywordJointableKeywordPath = "Database/Data/jointable_keyword_article.csv";
+        const string articleKeywordJointableKeywordPath = "Database/Data/jointable_keyword_articles.csv";
         const string keywordsPath = "Database/Data/keywords.csv";
         const string articlesPath = "Database/Data/articles.csv";
 
@@ -135,7 +135,7 @@ public class DataImporter
                 }
             }
         }
-
+        Console.WriteLine("Relation added");
         return keywordArticles;
     }
 
@@ -149,5 +149,7 @@ public class DataImporter
         _context.ArticleKeywords.AddRange(keywordArticleRelations);
 
         _context.SaveChanges();
+
+        Console.WriteLine("Data imported successfully");
     }
 }
