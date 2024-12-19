@@ -1,11 +1,13 @@
-﻿using IDPA_Hauptprojekt_2024.Database.Model;
+using IDPA_Hauptprojekt_2024.Database.Model;
 using Microsoft.EntityFrameworkCore;
 
 namespace IDPA_Hauptprojekt_2024.Database
 {
-    public class DataContext:DbContext
+    public class DataContext : DbContext
     {
-        public DataContext(DbContextOptions<DataContext> options) : base(options) { }
+        public DataContext(DbContextOptions<DataContext> options) : base(options)
+        {
+        }
 
         public DbSet<Articles> Articles { get; set; }
         public DbSet<Keywords> Keywords { get; set; }
@@ -13,21 +15,22 @@ namespace IDPA_Hauptprojekt_2024.Database
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
+
+            // Konfiguration des zusammengesetzten Schlüssels für ArticleKeyword
             modelBuilder.Entity<ArticleKeyword>()
-                .HasKey(mab => new { mab.ArticleId, mab.KeywordId });
+                        .HasKey(ak => new { ak.ArticleId, ak.KeywordId });
+
+            // Konfiguration der Many-To-Many-Beziehungen
+            modelBuilder.Entity<ArticleKeyword>()
+                        .HasOne(ak => ak.Article)
+                        .WithMany(a => a.ArticleKeywords)
+                        .HasForeignKey(ak => ak.ArticleId);
 
             modelBuilder.Entity<ArticleKeyword>()
-                .HasOne(mab => mab.Article)
-                .WithMany(a => a.ArticleKeywords)
-                .HasForeignKey(a => a.ArticleId)
-                .OnDelete(DeleteBehavior.Cascade); //Deletes the relation as well.
-
-
-            modelBuilder.Entity<ArticleKeyword>()
-                .HasOne(mab => mab.Keyword)
-                .WithMany(a => a.ArticleKeywords)
-                .HasForeignKey(mab => mab.KeywordId)
-                .OnDelete(DeleteBehavior.Cascade); //Deletes the relation as well.
+                        .HasOne(ak => ak.Keyword)
+                        .WithMany(k => k.ArticleKeywords)
+                        .HasForeignKey(ak => ak.KeywordId);
         }
     }
 }
