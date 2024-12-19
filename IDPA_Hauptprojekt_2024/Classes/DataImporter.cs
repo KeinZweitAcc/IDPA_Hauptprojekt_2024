@@ -13,13 +13,15 @@ public class DataImporter
 
     public void ImportData()
     {
+        const string articleKeywordJointableKeywordPath = "Database/Data/jointable_keyword_article.csv";
         const string keywordsPath = "Database/Data/keywords.csv";
         const string articlesPath = "Database/Data/articles.csv";
 
         var keywords = LoadKeywordsFromCsv(keywordsPath);
+        var keywordArticleRelations = LoadKeywordArticleRelations(articleKeywordJointableKeywordPath);
         var articles = LoadArticlesFromCsv(articlesPath);
 
-        SaveDataToDatabase(keywords, articles);
+        SaveDataToDatabase(keywords, articles, keywordArticleRelations);
     }
 
     private List<Keywords> LoadKeywordsFromCsv(string filePath)
@@ -94,13 +96,57 @@ public class DataImporter
         return articles;
     }
 
+    private List<ArticleKeyword> LoadKeywordArticleRelations(string filePath)
+    {
+        var keywordArticles = new List<ArticleKeyword>();
+
+        using (var reader = new StreamReader(filePath))
+        {
+            bool isFirstLine = true;
+
+            while (!reader.EndOfStream)
+            {
+                var line = reader.ReadLine();
+
+                if (isFirstLine)
+                {
+                    isFirstLine = false; // Skip header
+                    continue;
+                }
+
+                var values = line.Split(";;");
+
+                if (values.Length >= 2)
+                {
+                    var keywordId = int.TryParse(values[0], out var id) ? id : 0;
+                    var articleIds = values[2].Split(',').Select(id => int.TryParse(id, out var aid) ? aid : 0);
+
+                    foreach (var articleId in articleIds)
+                    {
+                        if (articleId > 0)
+                        {
+                            keywordArticles.Add(new ArticleKeyword
+                            {
+                                KeywordId = keywordId,
+                                ArticleId = articleId
+                            });
+                        }
+                    }
+                }
+            }
+        }
+
+        return keywordArticles;
+    }
+
     private int ParseInt(string value) => int.TryParse(value.Trim(), out var result) ? result : 0;
     private char ParseLetter(string value) => string.IsNullOrEmpty(value.Trim()) ? '\0' : value.Trim()[0];
 
-    private void SaveDataToDatabase(IEnumerable<Keywords> keywords, IEnumerable<Articles> articles)
+    private void SaveDataToDatabase(IEnumerable<Keywords> keywords, IEnumerable<Articles> articles, IEnumerable<ArticleKeyword> keywordArticleRelations)
     {
         _context.Articles.AddRange(articles);
         _context.Keywords.AddRange(keywords);
+        _context.ArticleKeywords.AddRange(keywordArticleRelations);
 
         _context.SaveChanges();
     }
