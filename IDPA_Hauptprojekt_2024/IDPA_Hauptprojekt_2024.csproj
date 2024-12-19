@@ -20,6 +20,9 @@
     <None Update="Database\Data\articles.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Database\Data\jointable_keyword_articles.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Database\Data\keywords.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
