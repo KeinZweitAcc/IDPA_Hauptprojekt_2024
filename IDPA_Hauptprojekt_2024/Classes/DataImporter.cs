@@ -1,6 +1,12 @@
-﻿using System.IO;
-using IDPA_Hauptprojekt_2024.Database;
 using IDPA_Hauptprojekt_2024.Database.Model;
+using IDPA_Hauptprojekt_2024.Database;
+using System.IO;
+using System.Collections.Generic;
+using System.Linq;
+using System;
+using System.Diagnostics;
+using System.Windows;
+
 
 public class DataImporter
 {
@@ -18,8 +24,8 @@ public class DataImporter
         const string articlesPath = "Database/Data/articles.csv";
 
         var keywords = LoadKeywordsFromCsv(keywordsPath);
-        var keywordArticleRelations = LoadKeywordArticleRelations(articleKeywordJointableKeywordPath);
         var articles = LoadArticlesFromCsv(articlesPath);
+        var keywordArticleRelations = LoadKeywordArticleRelations(articleKeywordJointableKeywordPath);
 
         SaveDataToDatabase(keywords, articles, keywordArticleRelations);
     }
@@ -119,37 +125,66 @@ public class DataImporter
                 if (values.Length >= 2)
                 {
                     var keywordId = int.TryParse(values[0], out var id) ? id : 0;
-                    var articleIds = values[2].Split(',').Select(id => int.TryParse(id, out var aid) ? aid : 0);
+                    var articleIds = values[1].Split(',')
+                                              .Select(id => int.TryParse(id.Trim(), out var articleId) ? articleId : 0)
+                                              .Where(articleId => articleId > 0);
 
                     foreach (var articleId in articleIds)
                     {
-                        if (articleId > 0)
+                        keywordArticles.Add(new ArticleKeyword
                         {
-                            keywordArticles.Add(new ArticleKeyword
-                            {
-                                KeywordId = keywordId,
-                                ArticleId = articleId
-                            });
-                        }
+                            KeywordId = keywordId,
+                            ArticleId = articleId
+                        });
                     }
                 }
             }
         }
-        Console.WriteLine("Relation added");
+
+        Console.WriteLine("Relations loaded successfully.");
         return keywordArticles;
     }
 
     private int ParseInt(string value) => int.TryParse(value.Trim(), out var result) ? result : 0;
     private char ParseLetter(string value) => string.IsNullOrEmpty(value.Trim()) ? '\0' : value.Trim()[0];
 
-    private void SaveDataToDatabase(IEnumerable<Keywords> keywords, IEnumerable<Articles> articles, IEnumerable<ArticleKeyword> keywordArticleRelations)
+    private void SaveDataToDatabase(IEnumerable<Keywords> keywords, IEnumerable<Articles> articles,
+                                    IEnumerable<ArticleKeyword> keywordArticleRelations)
     {
-        _context.Articles.AddRange(articles);
-        _context.Keywords.AddRange(keywords);
-        _context.ArticleKeywords.AddRange(keywordArticleRelations);
+        // Lade existierende Artikel und Stichwörter
+        var existingArticleIds = _context.Articles.Select(a => a.Id).ToHashSet();
+        var existingKeywordIds = _context.Keywords.Select(k => k.Id).ToHashSet();
 
+        // Nur neue Artikel und Stichwörter hinzufügen
+        var newArticles = articles.Where(a => !existingArticleIds.Contains(a.Id)).ToList();
+        var newKeywords = keywords.Where(k => !existingKeywordIds.Contains(k.Id)).ToList();
+
+        _context.Articles.AddRange(newArticles);
+        _context.Keywords.AddRange(newKeywords);
+
+        // Lade existierende Relationen aus der Datenbank und lokalem Tracking
+        var existingRelations = _context.ArticleKeywords
+                                        .Select(ak => new { ak.ArticleId, ak.KeywordId })
+                                        .ToHashSet();
+
+        foreach (var relation in keywordArticleRelations)
+        {
+            // Verhindere das Hinzufügen von doppelten Relationen
+            if (!existingRelations.Contains(new { relation.ArticleId, relation.KeywordId }))
+            {
+                // Prüfen, ob bereits eine Instanz lokal verfolgt wird
+                if (
+                    !_context.ArticleKeywords.Local.Any(
+                        ak => ak.ArticleId == relation.ArticleId && ak.KeywordId == relation.KeywordId))
+                {
+                    _context.ArticleKeywords.Add(relation);
+                }
+            }
+        }
+
+        // Änderungen speichern
         _context.SaveChanges();
 
-        Console.WriteLine("Data imported successfully");
+        Console.WriteLine("Data imported successfully.");
     }
 }
