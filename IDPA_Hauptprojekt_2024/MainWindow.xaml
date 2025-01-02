@@ -5,22 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:IDPA_Hauptprojekt_2024"
         mc:Ignorable="d"
-        Title="MainWindow" Height="500" Width="800">
+        Closing="MainWindow_OnClosing"
+        Title="MainWindow"
+        WindowState="Maximized">
     <Grid Background="#FFE1E0F1">
-        <TextBox x:Name="TextBoxScenario" HorizontalAlignment="Center" Margin="0,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="708" Height="109"/>
-        <Button x:Name="ButtonSubmitScenario" Content="Submit" HorizontalAlignment="Center" Margin="0,165,0,0" VerticalAlignment="Top" Width="708" Height="25" Background="White" Click="ButtonSubmitScenario_Click"/>
-        <Label Content="Fallbeispiel:" HorizontalAlignment="Center" Margin="0,19,0,0" VerticalAlignment="Top" Width="708"/>
-        <Label Content="Möglicherweise relevante Gesetzesartikel:" HorizontalAlignment="Center" Margin="0,209,0,0" VerticalAlignment="Top" Width="708"/>
+        <TextBox x:Name="TextBoxScenario" HorizontalAlignment="Stretch" Margin="50,45,50,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="109" FontSize="20"/>
+        <Button x:Name="ButtonSubmitScenario" Content="Submit" HorizontalAlignment="Stretch" Margin="50,159,50,0" VerticalAlignment="Top" Height="31" FontSize="20" Background="White" Click="ButtonSubmitScenario_Click"/>
+        <Label Content="Fallbeispiel:" HorizontalAlignment="Left" Margin="50,10,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Möglicherweise relevante Gesetzesartikel:" HorizontalAlignment="Left" Margin="50,198,0,0" VerticalAlignment="Top" FontSize="20"/>
 
-        <ListBox x:Name="ListBoxArticles" ItemsSource="{Binding Articles}" HorizontalAlignment="Center" Margin="0,235,0,0" VerticalAlignment="Top" Width="708" Height="200">
+        <ListBox x:Name="ListBoxArticles" ItemsSource="{Binding Articles}" HorizontalAlignment="Stretch" Margin="50,235,50,50" VerticalAlignment="Stretch">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel>
-                        <TextBlock Text="{Binding ArticleNr}" FontWeight="Bold" FontFamily="Arial"/>
-                        <TextBlock Text="{Binding ArticleDescription}" FontFamily="Arial"/>
+                        <TextBlock Text="{Binding ArticleNr}" FontWeight="Bold" FontFamily="Arial" FontSize="15"/>
+                        <TextBlock Text="{Binding ArticleDescription}" FontFamily="Arial" FontSize="15"/>
                     </StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
+        <Label x:Name="NoArticleMessage" Content="Kein Artikel wurde gefunden" HorizontalAlignment="Center" Margin="0,190,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Arial" HorizontalContentAlignment="Center" Foreground="Red" Visibility="Hidden"/>
     </Grid>
 </Window>

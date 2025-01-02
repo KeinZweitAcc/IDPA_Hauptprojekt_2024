@@ -25,7 +25,7 @@ namespace IDPA_Hauptprojekt_2024.LocigClass
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
-        public void UpdateArticles(IEnumerable<Articles> articles)
+        public void UpdateArticles(List<Articles> articles)
         {
             Articles.Clear();
 

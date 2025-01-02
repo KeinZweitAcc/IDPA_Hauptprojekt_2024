@@ -1,4 +1,5 @@
 ﻿using System.IO;
+using System.Text;
 using System.Windows;
 using IDPA_Hauptprojekt_2024.Database;
 using IDPA_Hauptprojekt_2024.Database.Model;
@@ -30,7 +31,9 @@ public class DataImporter
     {
         var keywords = new List<Keywords>();
 
-        using (var reader = new StreamReader(filePath))
+        //  Encoding.GetEncoding("ISO-8859-1")) is used to display german "umlauts" äöü correctly.
+
+        using (var reader = new StreamReader(filePath, Encoding.GetEncoding("ISO-8859-1")))
         {
             bool isFirstLine = true;
 
@@ -65,7 +68,7 @@ public class DataImporter
     {
         var articleKeywords = new List<ArticleKeyword>();
 
-        using (var reader = new StreamReader(filePath))
+        using (var reader = new StreamReader(filePath, Encoding.GetEncoding("ISO-8859-1")))
         {
             bool isFirstLine = true;
 
@@ -110,7 +113,7 @@ public class DataImporter
     {
         var articles = new List<Articles>();
 
-        using (var reader = new StreamReader(filePath))
+        using (var reader = new StreamReader(filePath, Encoding.GetEncoding("ISO-8859-1")))
         {
             bool isFirstLine = true;
 

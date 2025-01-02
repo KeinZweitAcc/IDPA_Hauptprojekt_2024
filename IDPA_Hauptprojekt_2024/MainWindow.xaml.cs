@@ -1,4 +1,5 @@
-﻿using IDPA_Hauptprojekt_2024.Database;
+﻿using System.ComponentModel;
+using IDPA_Hauptprojekt_2024.Database;
 using IDPA_Hauptprojekt_2024_Migration.Database;
 using System.Text;
 using System.Windows;
@@ -16,6 +17,7 @@ namespace IDPA_Hauptprojekt_2024
         public MainWindow()
         {
             InitializeComponent();
+            this.WindowState = WindowState.Maximized;
             _viewModel = new ViewModelClass();
             DataContext = _viewModel;
 
@@ -34,8 +36,21 @@ namespace IDPA_Hauptprojekt_2024
 
         private void ButtonSubmitScenario_Click(object sender, RoutedEventArgs e)
         {
+            NoArticleMessage.Visibility = Visibility.Hidden;
+
             var ListFiltredArticles = _filterAlgorithm.Filter(TextBoxScenario.Text);
+
+            if (ListFiltredArticles.Count <= 0)
+            {
+                NoArticleMessage.Visibility = Visibility.Visible;
+            }
+
             _viewModel.UpdateArticles(ListFiltredArticles);
+        }
+
+        private void MainWindow_OnClosing(object? sender, CancelEventArgs e)
+        {
+            Application.Current.Shutdown();
         }
     }
 }
