@@ -12,12 +12,12 @@
         <Label Content="Fallbeispiel:" HorizontalAlignment="Center" Margin="0,19,0,0" VerticalAlignment="Top" Width="708"/>
         <Label Content="Möglicherweise relevante Gesetzesartikel:" HorizontalAlignment="Center" Margin="0,209,0,0" VerticalAlignment="Top" Width="708"/>
 
-        <ListBox x:Name="ListBoxArticles" HorizontalAlignment="Center" Margin="0,235,0,0" VerticalAlignment="Top" Width="708" Height="200">
+        <ListBox x:Name="ListBoxArticles" ItemsSource="{Binding Articles}" HorizontalAlignment="Center" Margin="0,235,0,0" VerticalAlignment="Top" Width="708" Height="200">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel>
-                        <TextBlock Text="{Binding ArticleNr}" FontWeight="Bold"/>
-                        <TextBlock Text="{Binding ArticleDescription}"/>
+                        <TextBlock Text="{Binding ArticleNr}" FontWeight="Bold" FontFamily="Arial"/>
+                        <TextBlock Text="{Binding ArticleDescription}" FontFamily="Arial"/>
                     </StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>

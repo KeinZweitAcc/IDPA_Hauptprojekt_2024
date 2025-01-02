@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace IDPA_Hauptprojekt_2024.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20241128141338_Initial")]
+    [Migration("20250102100155_Initial")]
     partial class Initial
     {
         /// <inheritdoc />

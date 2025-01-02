@@ -2,9 +2,9 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using IDPA_Hauptprojekt_2024.Database;
-using IDPA_Hauptprojekt_2024;
+using IDPA_Hauptprojekt_2024.LocigClass;
 
-namespace IDPA_Hauptprojekt_2024_Migration
+namespace IDPA_Hauptprojekt_2024
 {
     public partial class App : Application
     {
@@ -21,7 +21,7 @@ namespace IDPA_Hauptprojekt_2024_Migration
         {
             services.AddDbContext<DataContext>(options =>
                 options.UseSqlite("Data Source=IDPA_Hauptprojekt_2024.db"));
-            services.AddSingleton<MainWindow>(); // Register MainWindow or other services if needed
+            services.AddSingleton<MainWindow>();
         }
 
         protected override void OnStartup(StartupEventArgs e)
@@ -32,8 +32,12 @@ namespace IDPA_Hauptprojekt_2024_Migration
                 context.Database.Migrate(); // This ensures that migrations are applied on startup
             }
 
-            var mainWindow = _serviceProvider.GetRequiredService<MainWindow>();
-            mainWindow.Show();
+            var mainWindow = Application.Current.Windows.OfType<MainWindow>().FirstOrDefault();
+            if (mainWindow == null)
+            {
+                mainWindow = _serviceProvider.GetRequiredService<MainWindow>();
+            }
+
             base.OnStartup(e);
         }
     }
