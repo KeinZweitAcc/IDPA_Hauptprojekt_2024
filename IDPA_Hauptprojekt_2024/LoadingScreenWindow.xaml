@@ -1,0 +1,40 @@
+﻿<Window x:Class="IDPA_Hauptprojekt_2024.LoadingScreenWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:idpaHauptprojekt2024="clr-namespace:IDPA_Hauptprojekt_2024"
+        mc:Ignorable="d"
+        Title="LoadingScreenWindow" Height="450" Width="750"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        AllowsTransparency="True"
+        Background="{x:Null}"
+        ContentRendered="Window_ContentRendered">
+
+    <Grid>
+        <materialDesign:Card UniformCornerRadius="15" Margin="25" Background="{DynamicResource MaterialDesign.Brush.Primary.Dark.Foreground}"  >
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="350"/>
+                    <ColumnDefinition Width="450"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="50,0,0,0" Width="290">
+                    <WrapPanel Width="349">
+                        <Image Source="pack://application:,,,/Images/sqliteIcon.png" HorizontalAlignment="Center" Height="50" Width="50" Margin="5,0,20,0"/>
+                        <TextBlock Text="H20 2024" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Width="202"></TextBlock>
+                    </WrapPanel>
+
+                    <TextBlock Text="Lade Datenbank..." FontSize="17" FontWeight="Bold" HorizontalAlignment="Left" Margin="5,30,0,1"/>
+                    <ProgressBar x:Name="progressBar" Value="0" Height="5" Width="280" IsIndeterminate="True" />
+                </StackPanel>
+
+                <StackPanel Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" Height="320" Width="320" Margin="10,0,0,0">
+                    <Image Source="pack://application:,,,/Images/image.png" Width="300" Height="200" Margin="0 50 0 0 "/>
+                </StackPanel>
+            </Grid>
+        </materialDesign:Card>
+    </Grid>
+</Window>

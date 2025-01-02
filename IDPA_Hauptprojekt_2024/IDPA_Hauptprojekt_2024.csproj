@@ -7,7 +7,13 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="Images\image.png" />
+    <None Remove="Images\sqliteIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="EntityFramework" Version="6.5.1" />
+    <PackageReference Include="MaterialDesignColors" Version="3.1.0" />
+    <PackageReference Include="MaterialDesignThemes" Version="5.1.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0">
       <PrivateAssets>all</PrivateAssets>
@@ -15,6 +21,10 @@
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite.Design" Version="1.1.6" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\image.png" />
+    <Resource Include="Images\sqliteIcon.png" />
   </ItemGroup>
   <ItemGroup>
     <None Update="Database\Data\articles.csv">
