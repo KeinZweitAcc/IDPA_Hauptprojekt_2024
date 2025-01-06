@@ -44,7 +44,7 @@ namespace IDPA_Hauptprojekt_2024
 
         private void SourceButton_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Jeder Artikel ist vom schweizer OR (20 Auflage 2024)");
+            MessageBox.Show("Gesetzesartikel:\n\rErnst J. Schneiter\n\rZGB/OR Kaufmännische Ausgabe: Zivilgesetzbuch, Obligationenrecht, SchKG, BV und weitere Erlasse\n\r20. Aufl. (Zürich: Orell Füssli Juristische Medien, 2024)");
         }
     }
 }

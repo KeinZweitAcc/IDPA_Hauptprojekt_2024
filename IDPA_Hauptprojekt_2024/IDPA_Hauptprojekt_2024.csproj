@@ -7,6 +7,7 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="Fonts\Tommy-Medium.otf" />
     <None Remove="Images\image.png" />
     <None Remove="Images\ORacle - Image.png" />
     <None Remove="Images\ORacle.png" />
@@ -26,6 +27,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite.Design" Version="1.1.6" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Fonts\Tommy-Medium.otf" />
     <Resource Include="Images\image.png" />
     <Resource Include="Images\ORacle - Image.png" />
     <Resource Include="Images\sqliteIcon.png" />
