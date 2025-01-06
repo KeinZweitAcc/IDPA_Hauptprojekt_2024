@@ -25,5 +25,18 @@
             </ListBox.ItemTemplate>
         </ListBox>
         <Label x:Name="NoArticleMessage" Content="Kein Artikel wurde gefunden" HorizontalAlignment="Center" Margin="0,190,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Arial" HorizontalContentAlignment="Center" Foreground="Red" Visibility="Hidden"/>
+
+        <Button x:Name="SourceButton" Content="Source button" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="50,0,0,10" Width="102" Height="30" FontSize="15" Click="SourceButton_Click">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="White" CornerRadius="20" BorderBrush="Gray" BorderThickness="2">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+
+            </Button.Template>
+        </Button>
+        
+
     </Grid>
 </Window>

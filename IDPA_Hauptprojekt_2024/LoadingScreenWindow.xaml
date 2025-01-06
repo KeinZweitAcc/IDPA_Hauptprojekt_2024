@@ -10,11 +10,10 @@
         WindowStyle="None"
         WindowStartupLocation="CenterScreen"
         AllowsTransparency="True"
-        Background="{x:Null}"
-        ContentRendered="Window_ContentRendered">
+        Background="{x:Null}">
 
     <Grid>
-        <materialDesign:Card UniformCornerRadius="15" Margin="25" Background="{DynamicResource MaterialDesign.Brush.Primary.Dark.Foreground}"  >
+        <materialDesign:Card UniformCornerRadius="15" Margin="25" Background="{DynamicResource MaterialDesign.Brush.Primary.Foreground}"  >
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="350"/>
@@ -24,7 +23,7 @@
                 <StackPanel Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="50,0,0,0" Width="290">
                     <WrapPanel Width="349">
                         <Image Source="pack://application:,,,/Images/sqliteIcon.png" HorizontalAlignment="Center" Height="50" Width="50" Margin="5,0,20,0"/>
-                        <TextBlock Text="H20 2024" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Width="202"></TextBlock>
+                        <TextBlock FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Width="202"><Run Text="ORacle"/><Run Text=" 202"/><Run Language="en-ch" Text="5"/></TextBlock>
                     </WrapPanel>
 
                     <TextBlock Text="Lade Datenbank..." FontSize="17" FontWeight="Bold" HorizontalAlignment="Left" Margin="5,30,0,1"/>
@@ -32,8 +31,9 @@
                 </StackPanel>
 
                 <StackPanel Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" Height="320" Width="320" Margin="10,0,0,0">
-                    <Image Source="pack://application:,,,/Images/image.png" Width="300" Height="200" Margin="0 50 0 0 "/>
+                    <Image Source="pack://application:,,,/Images/ORacle - Image.png" Width="300" Height="200" Margin="0 50 0 0 "/>
                 </StackPanel>
+                <Label Content="© ORacle 2025. All Rights Reserved." HorizontalAlignment="Left" Height="25" Margin="10,365,0,0" VerticalAlignment="Top" Width="262" FontWeight="Bold" FontSize="10"/>
             </Grid>
         </materialDesign:Card>
     </Grid>

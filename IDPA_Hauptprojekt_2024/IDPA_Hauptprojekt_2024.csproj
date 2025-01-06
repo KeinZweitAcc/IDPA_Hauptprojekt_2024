@@ -8,6 +8,9 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Images\image.png" />
+    <None Remove="Images\ORacle - Image.png" />
+    <None Remove="Images\ORacle.png" />
+    <None Remove="Images\ORacle.svg" />
     <None Remove="Images\sqliteIcon.png" />
   </ItemGroup>
   <ItemGroup>
@@ -24,6 +27,7 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\image.png" />
+    <Resource Include="Images\ORacle - Image.png" />
     <Resource Include="Images\sqliteIcon.png" />
   </ItemGroup>
   <ItemGroup>
