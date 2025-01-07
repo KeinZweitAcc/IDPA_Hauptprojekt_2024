@@ -15,13 +15,15 @@ namespace IDPA_Hauptprojekt_2024
             InitializeComponent();
             InitializeSkalen();
         }
-
+        private string[] skalen = { "Bern", "Basel", "Zürich" };
         private void InitializeSkalen()
         {
             ComboBoxSkala_Lohnfortzahlung.Items.Clear();
-            ComboBoxSkala_Lohnfortzahlung.Items.Add("Basel");
-            ComboBoxSkala_Lohnfortzahlung.Items.Add("Bern");
-            ComboBoxSkala_Lohnfortzahlung.Items.Add("Zürich");
+            foreach (var skala in skalen)
+            {
+                ComboBoxSkala_Lohnfortzahlung.Items.Add(skala);
+            }
+            
             ComboBoxSkala_Lohnfortzahlung.SelectedIndex = 0;
         }
 
@@ -30,7 +32,8 @@ namespace IDPA_Hauptprojekt_2024
             DateTime? eintrittsDatum = DatePickerEintrittsdatum_Kuendigungsfrist.SelectedDate ?? DateTime.MinValue;
             DateTime? kuendigungsDatum = DatePickerKuendigungsdatum_Kuendigungsfrist.SelectedDate ?? DateTime.MinValue;
 
-            OutputKuendigungsdatum.Content = $"OUTPUT {eintrittsDatum} - {kuendigungsDatum}";
+            string kuendigungsfrist = KuendigungsfristBerrechnen(eintrittsDatum, kuendigungsDatum);
+            OutputKuendigungsdatum.Content = $"OUTPUT {kuendigungsfrist}";
         }
 
         private void ButtonCalculateLohnfortzahlung_Click(object sender, RoutedEventArgs e)
@@ -39,12 +42,146 @@ namespace IDPA_Hauptprojekt_2024
             DateTime? erkrankungsDatum = DatePickerKrankheitsdatum_Lohnfortzahlung.SelectedDate ?? DateTime.MinValue;
             string? skala = ComboBoxSkala_Lohnfortzahlung.SelectedItem as string;
 
-            OutputLohnfortzahlung.Content = $"OUTPUT {eintrittsDatum} - {erkrankungsDatum} - {skala}";
+            string lohnfortzahlung = LohnfortzahlungBerrechnen(eintrittsDatum, erkrankungsDatum, skala);
+
+            OutputLohnfortzahlung.Content = $"OUTPUT {lohnfortzahlung}";
         }
 
         private void ButtonGoBack_Click(object sender, RoutedEventArgs e)
         {
             _mainWindow.MainFrame.Content = null;
+        }
+
+        string[] kuendigungsfristen = { "1 Monat", "2 Monate", "3 Monate" };
+
+        
+
+        public string KuendigungsfristBerrechnen(DateTime? eintrittsdatum, DateTime? kuendigungsdatum)
+        {
+            TimeSpan? unterschied = kuendigungsdatum - eintrittsdatum;
+
+            switch (unterschied?.Days)
+            {
+                case <= 365:
+
+                    return kuendigungsfristen[0];
+
+                case > 365 and < 3285:
+
+                    return kuendigungsfristen[1];
+                case > 3285:
+
+                    return kuendigungsfristen[2];
+
+                default:
+                    return "Kuendigungsfrist nicht berechenbar";
+            }
+        }
+
+        public string LohnfortzahlungBerrechnen(DateTime? eintrittsdatum, DateTime? kuendigungsdatum, string skala)
+        {
+            TimeSpan? unterschied = kuendigungsdatum - eintrittsdatum;
+
+            if (skala == skalen[0])
+            {
+                switch (unterschied?.Days)
+                {
+                    case <= 365:
+
+                        return "3 Wochen";
+
+                    case > 365 and <= 730:
+
+                        return "1 Monat";
+
+
+                    case > 730 and <= 1460:
+
+                        return "2 Monate ";
+
+                    case > 1460 and <= 3285:
+
+                        return "3 Monate";
+                    case > 3285 and <= 5110:
+
+                        return "4 Monate";
+                    case > 5110 and <= 6935:
+
+                        return "5 Monate";
+                    case > 6935:
+                        return "6 Monate";
+
+                    default:
+                        return "Lohnfortzahlung nicht berechenbar";
+                }
+            }
+            else if (skala == skalen[1])
+            {
+                switch (unterschied?.Days)
+                {
+                    case <= 365:
+
+                        return "3 Wochen";
+
+                    case > 365 and <= 1095:
+
+                        return "2 Monat";
+                    case > 1095 and <= 3650:
+
+                        return "3 Monate";
+                    case > 3650:
+
+                        return "4 Monate";
+                }
+
+            }
+            else if (skala == skalen[2])
+            {
+                switch (unterschied?.Days)
+                {
+                    case <= 365:
+
+                        return "3 Wochen";
+
+                    case > 365 and <= 730:
+
+                        return "8 Wochen";
+                    case > 730 and <= 1095:
+
+                        return "9 Wochen";
+                    case > 1095 and <= 1460:
+
+                        return "10 Wochen";
+                    case > 1460 and <= 1825:
+
+                        return "11 Wochen";
+                    case > 1825 and <= 2190:
+
+                        return "12 Wochen";
+                    case > 2190 and <= 2555:
+
+                        return "13 Wochen";
+                    case > 2555 and <= 2920:
+
+                        return "14 Wochen";
+
+                    case > 2920 and <= 3285:
+
+                        return "15 Wochen";
+                    case > 3285 and <= 3650:
+
+                        return "16 Wochen";
+                    case > 3650 and <= 4015:
+
+                        return "17 Wochen";
+                    default:
+                        return "Lohnfortzahlung nicht berechenbar";
+
+                }
+            }
+            return "Lohnfortzahlung nicht berechenbar";
+
+
         }
     }
 }
