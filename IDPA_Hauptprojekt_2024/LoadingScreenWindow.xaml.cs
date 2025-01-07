@@ -1,7 +1,4 @@
-﻿using System;
-using System.ComponentModel;
-using System.Threading;
-using System.Windows;
+﻿using System.Windows;
 
 namespace IDPA_Hauptprojekt_2024
 {

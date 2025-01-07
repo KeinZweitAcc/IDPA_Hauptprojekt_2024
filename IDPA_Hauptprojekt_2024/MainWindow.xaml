@@ -30,7 +30,10 @@
         <Button x:Name="SourceButton" Content="Quellen" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="50,0,0,10" Width="77" Height="30" FontSize="15" Click="SourceButton_Click" FontFamily="pack://application:,,,/Fonts/#MADE TOMMY" Background="#E6E6E6" BorderBrush="#BCBCBC" BorderThickness="2">
 
         </Button>
-        
+
+        <Button x:Name="SourceButton_OpenCalculator" Content="Zum Kalkulator" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="140,0,0,10" Width="130" Height="30" FontSize="15" Click="SourceButtonOpenCalculator_Click" FontFamily="pack://application:,,,/Fonts/#MADE TOMMY" Background="#E6E6E6" BorderBrush="#BCBCBC" BorderThickness="2"/>
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" />
+
 
     </Grid>
 </Window>
