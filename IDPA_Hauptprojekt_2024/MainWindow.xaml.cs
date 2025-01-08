@@ -1,9 +1,6 @@
 ﻿using System.ComponentModel;
-using IDPA_Hauptprojekt_2024.Database;
-using IDPA_Hauptprojekt_2024_Migration.Database;
-using System.Text;
 using System.Windows;
-using IDPA_Hauptprojekt_2024.LocigClass;
+using IDPA_Hauptprojekt_2024.LogicClass;
 
 namespace IDPA_Hauptprojekt_2024
 {
@@ -45,6 +42,12 @@ namespace IDPA_Hauptprojekt_2024
         private void SourceButton_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Gesetzesartikel:\n\rErnst J. Schneiter\n\rZGB/OR Kaufmännische Ausgabe: Zivilgesetzbuch, Obligationenrecht, SchKG, BV und weitere Erlasse\n\r20. Aufl. (Zürich: Orell Füssli Juristische Medien, 2024)");
+        }
+
+        private void SourceButtonOpenCalculator_Click(object sender, RoutedEventArgs e)
+        {
+            Berechnungen berechnungen = new Berechnungen(this);
+            MainFrame.Navigate(berechnungen);
         }
     }
 }

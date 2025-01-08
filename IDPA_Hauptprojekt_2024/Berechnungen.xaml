@@ -1,0 +1,118 @@
+﻿<Page x:Class="IDPA_Hauptprojekt_2024.Berechnungen"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      
+      Title="Berechnungen">
+
+    <Grid Background="#F2F2F2" Margin="20">
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+
+       
+        <GroupBox Header="Kündigungsfrist berechnen" Grid.Row="0" Grid.ColumnSpan="2" Margin="0,0,0,10" Foreground="Green">
+            <Grid Margin="10">
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                
+                <Label Content="Eintrittsdatum:" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" />
+                <DatePicker x:Name="DatePickerEintrittsdatum_Kuendigungsfrist" Grid.Row="0" Grid.Column="1" Margin="5,0" />
+
+                <Label Content="Kündigungsdatum:" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" />
+                <DatePicker x:Name="DatePickerKuendigungsdatum_Kuendigungsfrist" Grid.Row="1" Grid.Column="1" Margin="5,0" />
+                <Label x:Name="OutputKuendigungsdatum" Content="Kündigungsfrist:" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" />
+
+                <Button x:Name="ButtonCalculateKuendigungsfrist" Content="Berechnen" Click="ButtonCalculateKuendigungsfrist_Click" Grid.Row="2" Grid.ColumnSpan="2" HorizontalAlignment="Right" Margin="5,10" Width="100">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border Background="{TemplateBinding Background}" CornerRadius="5">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+            </Grid>
+        </GroupBox>
+
+        
+        <GroupBox Header="Lohnfortzahlung berechnen" Grid.Row="1" Grid.ColumnSpan="2" Margin="0,0,0,10" Foreground="Green">
+            <Grid Margin="10">
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label Content="Eintrittsdatum:" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" />
+                <DatePicker x:Name="DatePickerEintrittsdatum_Lohnfortzahlung" Grid.Row="0" Grid.Column="1" Margin="5,0" />
+
+                <Label Content="Erkrankungs- / Unfalldatum:" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" />
+                <DatePicker x:Name="DatePickerKrankheitsdatum_Lohnfortzahlung" Grid.Row="1" Grid.Column="1" Margin="5,0" />
+
+                <Label Content="Skala:" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" />
+                <ComboBox x:Name="ComboBoxSkala_Lohnfortzahlung" Grid.Row="2" Grid.Column="1" Margin="5,0" Width="150" />
+                <Label x:Name="OutputLohnfortzahlung" Content="Lohnfortzahlung:" Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" />
+
+                <Button x:Name="ButtonCalculateLohnfortzahlung" Content="Berechnen" Click="ButtonCalculateLohnfortzahlung_Click" Grid.Row="3" Grid.ColumnSpan="2" HorizontalAlignment="Right" Margin="5,10" Width="100">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border Background="{TemplateBinding Background}" CornerRadius="5">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+            </Grid>
+        </GroupBox>
+
+      
+        <GroupBox Header="Spezialfälle" Grid.Row="2" Grid.ColumnSpan="2" Margin="0,0,0,10" Foreground="Green">
+            <StackPanel Margin="10">
+                
+                <CheckBox x:Name="CheckBox1" Content="Haben Sie in vier Wochen vor oder nach der Kündigung obligatorischen Militär-, Schutz-, oder Zivildienst absolviert?" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked" />
+                <CheckBox x:Name="CheckBox2" Content="Waren Sie während der Kündigung krank (30/90/180 Tage)?" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked" />
+                <CheckBox x:Name="CheckBox3" Content="Sind Sie schwanger (bis 16 Wochen nach Geburt)?" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked" />
+                <CheckBox x:Name="CheckBox4" Content="Haben Sie eine Dienstleistung für eine Hilfsaktion im Ausland absolviert?" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked" />
+            </StackPanel>
+        </GroupBox>
+
+
+        <Button x:Name="ButtonGoBack" Content="Zurück" Click="ButtonGoBack_Click" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="100" Margin="10">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}" CornerRadius="20">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+
+        <Label x:Name="OutputNichtigeKuendigung" Content="" Grid.Row="3" Grid.Column="1" Margin="10" FontWeight="Bold" Foreground="Red" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+    </Grid>
+</Page>
