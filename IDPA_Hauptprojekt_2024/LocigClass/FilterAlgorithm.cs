@@ -6,7 +6,7 @@ using IDPA_Hauptprojekt_2024.Database;
 using IDPA_Hauptprojekt_2024.Database.Model;
 using Microsoft.EntityFrameworkCore;
 
-namespace IDPA_Hauptprojekt_2024.LocigClass
+namespace IDPA_Hauptprojekt_2024.LogicClass
 {
     public class FilterAlgorithm
     {

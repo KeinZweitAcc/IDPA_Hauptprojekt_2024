@@ -2,7 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using IDPA_Hauptprojekt_2024.Database;
-using IDPA_Hauptprojekt_2024.LocigClass;
+using IDPA_Hauptprojekt_2024.LogicClass;
 
 namespace IDPA_Hauptprojekt_2024
 {

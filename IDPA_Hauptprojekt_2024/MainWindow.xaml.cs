@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 using System.Windows;
-using IDPA_Hauptprojekt_2024.LocigClass;
+using IDPA_Hauptprojekt_2024.LogicClass;
 
 namespace IDPA_Hauptprojekt_2024
 {

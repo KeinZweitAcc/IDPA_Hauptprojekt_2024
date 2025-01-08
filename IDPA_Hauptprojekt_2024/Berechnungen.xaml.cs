@@ -1,5 +1,6 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
+using static MaterialDesignThemes.Wpf.Theme;
 
 namespace IDPA_Hauptprojekt_2024
 {
@@ -33,7 +34,7 @@ namespace IDPA_Hauptprojekt_2024
             DateTime? kuendigungsDatum = DatePickerKuendigungsdatum_Kuendigungsfrist.SelectedDate ?? DateTime.MinValue;
 
             string kuendigungsfrist = KuendigungsfristBerrechnen(eintrittsDatum, kuendigungsDatum);
-            OutputKuendigungsdatum.Content = $"OUTPUT {kuendigungsfrist}";
+            OutputKuendigungsdatum.Content = $"Kündigungsfrist: {kuendigungsfrist}";
         }
 
         private void ButtonCalculateLohnfortzahlung_Click(object sender, RoutedEventArgs e)
@@ -44,7 +45,7 @@ namespace IDPA_Hauptprojekt_2024
 
             string lohnfortzahlung = LohnfortzahlungBerrechnen(eintrittsDatum, erkrankungsDatum, skala);
 
-            OutputLohnfortzahlung.Content = $"OUTPUT {lohnfortzahlung}";
+            OutputLohnfortzahlung.Content = $"Lohnfortzahlung: {lohnfortzahlung}";
         }
 
         private void ButtonGoBack_Click(object sender, RoutedEventArgs e)
@@ -183,5 +184,18 @@ namespace IDPA_Hauptprojekt_2024
 
 
         }
+        private void CheckBox_Unchecked(object sender, RoutedEventArgs e)
+        {
+            if (!(CheckBox1.IsChecked ?? false) && !(CheckBox2.IsChecked ?? false) && !(CheckBox3.IsChecked ?? false) && !(CheckBox4.IsChecked ?? false))
+            {
+                OutputNichtigeKuendigung.Content = string.Empty;
+            }
+        }
+        private void CheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+            OutputNichtigeKuendigung.Content = "Die Kündigung ist nichtig";
+        }
+
+        
     }
 }
