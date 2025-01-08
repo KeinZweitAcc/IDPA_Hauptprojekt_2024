@@ -4,11 +4,11 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      
       Title="Berechnungen">
 
     <Grid Background="#F2F2F2" Margin="20">
-        <!-- Define grid structure -->
+        
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
@@ -20,10 +20,10 @@
             <ColumnDefinition Width="2*" />
         </Grid.ColumnDefinitions>
 
-        <!-- Kündigungsfrist Section -->
+       
         <GroupBox Header="Kündigungsfrist berechnen" Grid.Row="0" Grid.ColumnSpan="2" Margin="0,0,0,10" Foreground="Green">
             <Grid Margin="10">
-                <!-- Content remains unchanged -->
+                
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto" />
                     <RowDefinition Height="Auto" />
@@ -34,7 +34,7 @@
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
 
-                <!-- Labels and DatePickers -->
+                
                 <Label Content="Eintrittsdatum:" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" />
                 <DatePicker x:Name="DatePickerEintrittsdatum_Kuendigungsfrist" Grid.Row="0" Grid.Column="1" Margin="5,0" />
 
@@ -42,7 +42,7 @@
                 <DatePicker x:Name="DatePickerKuendigungsdatum_Kuendigungsfrist" Grid.Row="1" Grid.Column="1" Margin="5,0" />
                 <Label x:Name="OutputKuendigungsdatum" Content="Kündigungsfrist:" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" />
 
-                <Button x:Name="ButtonCalculateKuendigungsfrist" Content="Berechnen" Grid.Row="2" Grid.ColumnSpan="2" HorizontalAlignment="Right" Margin="5,10" Width="100">
+                <Button x:Name="ButtonCalculateKuendigungsfrist" Content="Berechnen" Click="ButtonCalculateKuendigungsfrist_Click" Grid.Row="2" Grid.ColumnSpan="2" HorizontalAlignment="Right" Margin="5,10" Width="100">
                     <Button.Template>
                         <ControlTemplate TargetType="Button">
                             <Border Background="{TemplateBinding Background}" CornerRadius="5">
@@ -54,10 +54,10 @@
             </Grid>
         </GroupBox>
 
-        <!-- Lohnfortzahlung Section -->
+        
         <GroupBox Header="Lohnfortzahlung berechnen" Grid.Row="1" Grid.ColumnSpan="2" Margin="0,0,0,10" Foreground="Green">
             <Grid Margin="10">
-                <!-- Content remains unchanged -->
+                
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto" />
                     <RowDefinition Height="Auto" />
@@ -79,7 +79,7 @@
                 <ComboBox x:Name="ComboBoxSkala_Lohnfortzahlung" Grid.Row="2" Grid.Column="1" Margin="5,0" Width="150" />
                 <Label x:Name="OutputLohnfortzahlung" Content="Lohnfortzahlung:" Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" />
 
-                <Button x:Name="ButtonCalculateLohnfortzahlung" Content="Berechnen" Grid.Row="3" Grid.ColumnSpan="2" HorizontalAlignment="Right" Margin="5,10" Width="100">
+                <Button x:Name="ButtonCalculateLohnfortzahlung" Content="Berechnen" Click="ButtonCalculateLohnfortzahlung_Click" Grid.Row="3" Grid.ColumnSpan="2" HorizontalAlignment="Right" Margin="5,10" Width="100">
                     <Button.Template>
                         <ControlTemplate TargetType="Button">
                             <Border Background="{TemplateBinding Background}" CornerRadius="5">
@@ -91,10 +91,10 @@
             </Grid>
         </GroupBox>
 
-        <!-- Spezialfälle Section -->
+      
         <GroupBox Header="Spezialfälle" Grid.Row="2" Grid.ColumnSpan="2" Margin="0,0,0,10" Foreground="Green">
             <StackPanel Margin="10">
-                <!-- Content remains unchanged -->
+                
                 <CheckBox x:Name="CheckBox1" Content="Haben Sie in vier Wochen vor oder nach der Kündigung obligatorischen Militär-, Schutz-, oder Zivildienst absolviert?" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked" />
                 <CheckBox x:Name="CheckBox2" Content="Waren Sie während der Kündigung krank (30/90/180 Tage)?" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked" />
                 <CheckBox x:Name="CheckBox3" Content="Sind Sie schwanger (bis 16 Wochen nach Geburt)?" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked" />
@@ -102,8 +102,8 @@
             </StackPanel>
         </GroupBox>
 
-        <!-- Back Button -->
-        <Button x:Name="ButtonGoBack" Content="Zurück" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="100" Margin="10">
+
+        <Button x:Name="ButtonGoBack" Content="Zurück" Click="ButtonGoBack_Click" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="100" Margin="10">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border Background="{TemplateBinding Background}" CornerRadius="20">

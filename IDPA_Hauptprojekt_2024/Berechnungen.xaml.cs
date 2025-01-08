@@ -61,6 +61,8 @@ namespace IDPA_Hauptprojekt_2024
         {
             TimeSpan? unterschied = kuendigungsdatum - eintrittsdatum;
 
+            if(unterschied == null) return "Kuendigungsfrist nicht berechenbar";
+
             switch (unterschied?.Days)
             {
                 case <= 365:
@@ -82,6 +84,8 @@ namespace IDPA_Hauptprojekt_2024
         public string LohnfortzahlungBerrechnen(DateTime? eintrittsdatum, DateTime? kuendigungsdatum, string skala)
         {
             TimeSpan? unterschied = kuendigungsdatum - eintrittsdatum;
+
+            if(unterschied == null) return "Lohnfortzahlung nicht berechenbar";
 
             if (skala == skalen[0])
             {
