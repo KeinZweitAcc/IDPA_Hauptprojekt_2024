@@ -7,32 +7,122 @@
         mc:Ignorable="d"
         Closing="MainWindow_OnClosing"
         Title="MainWindow"
-        WindowState="Maximized">
+        WindowState="Maximized" Height="248">
 
-    <Grid Background="#F2F2F2">
-        <TextBox x:Name="TextBoxScenario" HorizontalAlignment="Stretch" Margin="50,45,50,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="109" FontSize="20" Background="#E6E6E6" BorderBrush="#BCBCBC" BorderThickness="2" FontFamily="pack://application:,,,/Fonts/#MADE TOMMY"/>
-        <Button x:Name="ButtonSubmitScenario" Content="Submit" HorizontalAlignment="Stretch" Margin="50,159,50,0" VerticalAlignment="Top" Height="31" FontSize="20" Background="#E6E6E6" BorderBrush="#BCBCBC" BorderThickness="2" Click="ButtonSubmitScenario_Click" FontFamily="pack://application:,,,/Fonts/#MADE TOMMY" />
-        <Label Content="Fallbeispiel:" HorizontalAlignment="Left" Margin="50,10,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="pack://application:,,,/Fonts/#MADE TOMMY"/>
-        <Label Content="Möglicherweise relevante Gesetzesartikel:" HorizontalAlignment="Left" Margin="50,198,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="pack://application:,,,/Fonts/#MADE TOMMY"/>
+    <Grid Margin="20">
 
-        <ListBox x:Name="ListBoxArticles" ItemsSource="{Binding Articles}" HorizontalAlignment="Stretch" Margin="50,235,50,50" VerticalAlignment="Stretch" Background="#E6E6E6" BorderBrush="#BCBCBC" BorderThickness="2">
-            <ListBox.ItemTemplate>
-                <DataTemplate>
-                    <StackPanel>
-                        <TextBlock Text="{Binding ArticleNr}" FontWeight="Bold" FontFamily="pack://application:,,,/Fonts/#MADE TOMMY" FontSize="15"/>
-                        <TextBlock Text="{Binding ArticleDescription}" FontFamily="pack://application:,,,/Fonts/#MADE TOMMY" FontSize="15"/>
-                    </StackPanel>
-                </DataTemplate>
-            </ListBox.ItemTemplate>
-        </ListBox>
-        <Label x:Name="NoArticleMessage" Content="Kein Artikel wurde gefunden" HorizontalAlignment="Center" Margin="0,190,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Arial" HorizontalContentAlignment="Center" Foreground="Red" Visibility="Hidden"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="7*"/>
+        </Grid.ColumnDefinitions>
 
-        <Button x:Name="SourceButton" Content="Quellen" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="50,0,0,10" Width="77" Height="30" FontSize="15" Click="SourceButton_Click" FontFamily="pack://application:,,,/Fonts/#MADE TOMMY" Background="#E6E6E6" BorderBrush="#BCBCBC" BorderThickness="2">
 
-        </Button>
+        <Grid Grid.Column="0" Margin="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="20*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
 
-        <Button x:Name="SourceButton_OpenCalculator" Content="Zum Kalkulator" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="140,0,0,10" Width="130" Height="30" FontSize="15" Click="SourceButtonOpenCalculator_Click" FontFamily="pack://application:,,,/Fonts/#MADE TOMMY" Background="#E6E6E6" BorderBrush="#BCBCBC" BorderThickness="2"/>
-        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" />
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="7*"/>
+            </Grid.ColumnDefinitions>
+
+
+
+            <Label Grid.Row="0" Content="Fallbeispiel:" Grid.Column="0" Grid.ColumnSpan="2" FontSize="20" FontFamily="pack://application:,,,/Fonts/#MADE TOMMY" Height="35" VerticalAlignment="Top" Foreground="#78B159"/>
+
+            <TextBox Height="Auto" MinHeight="300" MaxHeight="500" Grid.Row ="1" Grid.Column="0" Grid.ColumnSpan="2" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" x:Name="TextBoxScenario" HorizontalAlignment="Stretch" TextWrapping="Wrap" FontSize="20" Background="#E6E6E6" BorderThickness="0" FontFamily="pack://application:,,,/Fonts/#MADE TOMMY">
+                <TextBox.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </TextBox.Resources>
+
+            </TextBox>
+
+            <Button Grid.Column="0" Grid.Row="3" x:Name="ButtonSubmitScenario" Content="Submit" FontSize="20" Background="#E6E6E6" BorderThickness="0" Click="ButtonSubmitScenario_Click" FontFamily="pack://application:,,,/Fonts/#MADE TOMMY">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+
+            <Button Grid.Row="5" x:Name="SourceButton" Content="Quellen" FontSize="20" Click="SourceButton_Click" FontFamily="pack://application:,,,/Fonts/#MADE TOMMY" Background="#E6E6E6" BorderThickness="0">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button Grid.Row="7" x:Name="SourceButtonOpenCalculator" Content="Kalkulator" FontSize="20" Click="SourceButtonOpenCalculator_Click" FontFamily="pack://application:,,,/Fonts/#MADE TOMMY" Background="#E6E6E6" BorderThickness="0">
+                
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" />
+
+
+        </Grid>
+
+
+        <Grid Grid.Column="1" Margin="10,0,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+
+
+            <Label Grid.Row="0"  Content="Möglicherweise relevante Gesetzesartikel:" FontSize="20" FontFamily="pack://application:,,,/Fonts/#MADE TOMMY" Foreground="#78B159"/>
+
+            <ListBox Grid.Row="1" x:Name="ListBoxArticles" ItemsSource="{Binding Articles}" Background="#E6E6E6" BorderThickness="0">
+                <ListBox.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </ListBox.Resources>
+
+                <ListBox.Template>
+                    <ControlTemplate TargetType="ListBox">
+                        <Border Background="{TemplateBinding Background}">
+                            <ScrollViewer HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+                                <ItemsPresenter/>
+                            </ScrollViewer>
+                        </Border>
+                    </ControlTemplate>
+                </ListBox.Template>
+
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Expander FontSize="15" FontFamily="pack://application:,,,/Fonts/#MADE TOMMY" Background="#E6E6E6" BorderBrush="#BCBCBC" BorderThickness="2" HorizontalAlignment="Stretch" MinHeight="30" MinWidth="200">
+                            <Expander.Header>
+                                <TextBlock>
+                                    <Run Text="Artikel"/>
+                                    <Run Text="{Binding ArticleNr}"/>
+                                </TextBlock>
+                            </Expander.Header>
+
+
+                            <Grid>
+                                <TextBlock Text="{Binding ArticleDescription}" FontSize="15" FontFamily="pack://application:,,,/Fonts/#MADE TOMMY" Padding="10" TextWrapping="Wrap"/>
+                            </Grid>
+                        </Expander>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+            <Label x:Name="NoArticleMessage" Content="Kein Artikel wurde gefunden" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontFamily="pack://application:,,,/Fonts/#MADE TOMMY" HorizontalContentAlignment="Center" Foreground="Red" Visibility="Hidden" Grid.Row="1"/>
+
+        </Grid>
+
 
 
     </Grid>
