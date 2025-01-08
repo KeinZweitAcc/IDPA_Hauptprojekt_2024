@@ -1,6 +1,7 @@
-﻿using System.Windows;
+﻿// Updated Berechnungen.xaml.cs to handle Spezialfälle checkboxes using _checked functions
+using System.Windows;
 using System.Windows.Controls;
-using static MaterialDesignThemes.Wpf.Theme;
+using IDPA_Hauptprojekt_2024.LogicClass;
 
 namespace IDPA_Hauptprojekt_2024
 {
@@ -10,196 +11,61 @@ namespace IDPA_Hauptprojekt_2024
     public partial class Berechnungen : Page
     {
         private MainWindow _mainWindow;
+        private readonly BerechnenViewModel _viewModel;
+
         public Berechnungen(MainWindow mainWindow)
         {
-            _mainWindow = mainWindow;
             InitializeComponent();
-            InitializeSkalen();
-        }
-        private string[] skalen = { "Bern", "Basel", "Zürich" };
-        private void InitializeSkalen()
-        {
-            ComboBoxSkala_Lohnfortzahlung.Items.Clear();
-            foreach (var skala in skalen)
-            {
-                ComboBoxSkala_Lohnfortzahlung.Items.Add(skala);
-            }
-            
-            ComboBoxSkala_Lohnfortzahlung.SelectedIndex = 0;
-        }
-
-        private void ButtonCalculateKuendigungsfrist_Click(object sender, RoutedEventArgs e)
-        {
-            DateTime? eintrittsDatum = DatePickerEintrittsdatum_Kuendigungsfrist.SelectedDate ?? DateTime.MinValue;
-            DateTime? kuendigungsDatum = DatePickerKuendigungsdatum_Kuendigungsfrist.SelectedDate ?? DateTime.MinValue;
-
-            string kuendigungsfrist = KuendigungsfristBerrechnen(eintrittsDatum, kuendigungsDatum);
-            OutputKuendigungsdatum.Content = $"Kündigungsfrist: {kuendigungsfrist}";
-        }
-
-        private void ButtonCalculateLohnfortzahlung_Click(object sender, RoutedEventArgs e)
-        {
-            DateTime? eintrittsDatum = DatePickerEintrittsdatum_Lohnfortzahlung.SelectedDate ?? DateTime.MinValue;
-            DateTime? erkrankungsDatum = DatePickerKrankheitsdatum_Lohnfortzahlung.SelectedDate ?? DateTime.MinValue;
-            string? skala = ComboBoxSkala_Lohnfortzahlung.SelectedItem as string;
-
-            string lohnfortzahlung = LohnfortzahlungBerrechnen(eintrittsDatum, erkrankungsDatum, skala);
-
-            OutputLohnfortzahlung.Content = $"Lohnfortzahlung: {lohnfortzahlung}";
+            _viewModel = new BerechnenViewModel();
+            DataContext = _viewModel;
+            _mainWindow = mainWindow;
         }
 
         private void ButtonGoBack_Click(object sender, RoutedEventArgs e)
         {
-            _mainWindow.MainFrame.Content = null;
+            _mainWindow.MainFrame.Navigate(null);
         }
 
-        string[] kuendigungsfristen = { "1 Monat", "2 Monate", "3 Monate" };
-
-        
-
-        public string KuendigungsfristBerrechnen(DateTime? eintrittsdatum, DateTime? kuendigungsdatum)
+        // Methods to handle checkbox _Checked events
+        private void Militaerdienst_Checked(object sender, RoutedEventArgs e)
         {
-            TimeSpan? unterschied = kuendigungsdatum - eintrittsdatum;
-
-            if(unterschied == null) return "Kuendigungsfrist nicht berechenbar";
-
-            switch (unterschied?.Days)
-            {
-                case <= 365:
-
-                    return kuendigungsfristen[0];
-
-                case > 365 and < 3285:
-
-                    return kuendigungsfristen[1];
-                case > 3285:
-
-                    return kuendigungsfristen[2];
-
-                default:
-                    return "Kuendigungsfrist nicht berechenbar";
-            }
+            _viewModel.MilitaerdienstChecked = ((CheckBox)sender).IsChecked == true;
         }
 
-        public string LohnfortzahlungBerrechnen(DateTime? eintrittsdatum, DateTime? kuendigungsdatum, string skala)
+        private void Krankheit_Checked(object sender, RoutedEventArgs e)
         {
-            TimeSpan? unterschied = kuendigungsdatum - eintrittsdatum;
-
-            if(unterschied == null) return "Lohnfortzahlung nicht berechenbar";
-
-            if (skala == skalen[0])
-            {
-                switch (unterschied?.Days)
-                {
-                    case <= 365:
-
-                        return "3 Wochen";
-
-                    case > 365 and <= 730:
-
-                        return "1 Monat";
-
-
-                    case > 730 and <= 1460:
-
-                        return "2 Monate ";
-
-                    case > 1460 and <= 3285:
-
-                        return "3 Monate";
-                    case > 3285 and <= 5110:
-
-                        return "4 Monate";
-                    case > 5110 and <= 6935:
-
-                        return "5 Monate";
-                    case > 6935:
-                        return "6 Monate";
-
-                    default:
-                        return "Lohnfortzahlung nicht berechenbar";
-                }
-            }
-            else if (skala == skalen[1])
-            {
-                switch (unterschied?.Days)
-                {
-                    case <= 365:
-
-                        return "3 Wochen";
-
-                    case > 365 and <= 1095:
-
-                        return "2 Monat";
-                    case > 1095 and <= 3650:
-
-                        return "3 Monate";
-                    case > 3650:
-
-                        return "4 Monate";
-                }
-
-            }
-            else if (skala == skalen[2])
-            {
-                switch (unterschied?.Days)
-                {
-                    case <= 365:
-
-                        return "3 Wochen";
-
-                    case > 365 and <= 730:
-
-                        return "8 Wochen";
-                    case > 730 and <= 1095:
-
-                        return "9 Wochen";
-                    case > 1095 and <= 1460:
-
-                        return "10 Wochen";
-                    case > 1460 and <= 1825:
-
-                        return "11 Wochen";
-                    case > 1825 and <= 2190:
-
-                        return "12 Wochen";
-                    case > 2190 and <= 2555:
-
-                        return "13 Wochen";
-                    case > 2555 and <= 2920:
-
-                        return "14 Wochen";
-
-                    case > 2920 and <= 3285:
-
-                        return "15 Wochen";
-                    case > 3285 and <= 3650:
-
-                        return "16 Wochen";
-                    case > 3650 and <= 4015:
-
-                        return "17 Wochen";
-                    default:
-                        return "Lohnfortzahlung nicht berechenbar";
-
-                }
-            }
-            return "Lohnfortzahlung nicht berechenbar";
-
-
+            _viewModel.KrankheitChecked = ((CheckBox)sender).IsChecked == true;
         }
-        private void CheckBox_Unchecked(object sender, RoutedEventArgs e)
+
+        private void Schwangerschaft_Checked(object sender, RoutedEventArgs e)
         {
-            if (!(CheckBox1.IsChecked ?? false) && !(CheckBox2.IsChecked ?? false) && !(CheckBox3.IsChecked ?? false) && !(CheckBox4.IsChecked ?? false))
-            {
-                OutputNichtigeKuendigung.Content = string.Empty;
-            }
-        }
-        private void CheckBox_Checked(object sender, RoutedEventArgs e)
-        {
-            OutputNichtigeKuendigung.Content = "Die Kündigung ist nichtig";
+            _viewModel.SchwangerschaftChecked = ((CheckBox)sender).IsChecked == true;
         }
 
-        
+        private void Hilfsaktion_Checked(object sender, RoutedEventArgs e)
+        {
+            _viewModel.HilfsaktionChecked = ((CheckBox)sender).IsChecked == true;
+        }
+
+        // Methods to handle checkbox _Unchecked events
+        private void Militaerdienst_Unchecked(object sender, RoutedEventArgs e)
+        {
+            _viewModel.MilitaerdienstChecked = ((CheckBox)sender).IsChecked == false;
+        }
+
+        private void Krankheit_Unchecked(object sender, RoutedEventArgs e)
+        {
+            _viewModel.KrankheitChecked = ((CheckBox)sender).IsChecked == false;
+        }
+
+        private void Schwangerschaft_Unchecked(object sender, RoutedEventArgs e)
+        {
+            _viewModel.SchwangerschaftChecked = ((CheckBox)sender).IsChecked == false;
+        }
+
+        private void Hilfsaktion_Unchecked(object sender, RoutedEventArgs e)
+        {
+            _viewModel.HilfsaktionChecked = ((CheckBox)sender).IsChecked == false;
+        }
     }
 }
