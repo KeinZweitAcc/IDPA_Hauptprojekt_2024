@@ -89,6 +89,16 @@
                     <Label Content="{Binding SpezialfallResult}" Margin="5,20" FontWeight="Bold" Foreground="Red" FontSize="20" />
                 </StackPanel>
             </GroupBox>
+
+            <Button Content="Zurück" Click="ButtonGoBack_Click" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="150" Margin="20" FontSize="20" Padding="10">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="10">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
         </Grid>
     </ScrollViewer>
 </Page>
