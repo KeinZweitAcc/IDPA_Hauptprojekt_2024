@@ -9,7 +9,7 @@ namespace IDPA_Hauptprojekt_2024.LogicClass
             TimeSpan? unterschied = kuendigungsdatum - eintrittsdatum;
 
             if (unterschied == null) return "Kündigungsfrist nicht berechenbar";
-            if (kuendigungsdatum.Value < eintrittsdatum.Value) return "Das Kündigungsdatum kann nicht vor dem Eintrittsdatum liegen.";
+            if (kuendigungsdatum.Value < eintrittsdatum.Value) return "Das Kündigungsdatum kann nicht vor dem Eintrittsdatum liegen!";
 
 
             switch (unterschied?.Days)
@@ -30,6 +30,7 @@ namespace IDPA_Hauptprojekt_2024.LogicClass
             TimeSpan? unterschied = kuendigungsdatum - eintrittsdatum;
 
             if (unterschied == null) return "Lohnfortzahlung nicht berechenbar";
+            if (kuendigungsdatum.Value < eintrittsdatum.Value) return "Das Erkankungs-/Unfallsdatum kann nicht vor dem Eintrittsdatum liegen!";
 
             if (skala == "Bern")
             {

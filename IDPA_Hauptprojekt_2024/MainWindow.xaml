@@ -11,13 +11,11 @@
 
     <Grid Margin="20">
 
-        <!-- Column Definitions for the main grid -->
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="3*"/>
             <ColumnDefinition Width="7*"/>
         </Grid.ColumnDefinitions>
 
-        <!-- Left Grid -->
         <Grid Grid.Column="0" Margin="0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
@@ -69,7 +67,6 @@
             </Button>
         </Grid>
 
-        <!-- Right Grid -->
         <Grid Grid.Column="1" Margin="10,0,0,0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
@@ -116,7 +113,6 @@
             <Label x:Name="NoArticleMessage" Content="Kein Artikel wurde gefunden" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontFamily="pack://application:,,,/Fonts/#MADE TOMMY" HorizontalContentAlignment="Center" Foreground="Red" Visibility="Hidden" Grid.Row="1"/>
         </Grid>
 
-        <!-- MainFrame outside of left and right grids -->
         <Frame x:Name="MainFrame" Grid.ColumnSpan="2" NavigationUIVisibility="Hidden" Margin="-20,-20,-20,-20"/>
 
     </Grid>
